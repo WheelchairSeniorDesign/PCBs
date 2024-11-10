@@ -49,7 +49,7 @@
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -68,16 +68,16 @@
 			(psnegative no)
 			(psa4output no)
 			(plotreference yes)
-			(plotvalue yes)
+			(plotvalue no)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "GerberFiles/")
 		)
 	)
 	(net 0 "")
@@ -5407,7 +5407,7 @@
 	)
 	(gr_text "By Robbie Leslie"
 		(at 259 191 0)
-		(layer "Edge.Cuts")
+		(layer "Cmts.User")
 		(uuid "315ac176-0184-402f-b9e9-eea9ec1222d3")
 		(effects
 			(font
@@ -5419,7 +5419,7 @@
 	)
 	(gr_text "Joystick ADC + IMU Breakout Board"
 		(at 186 191 0)
-		(layer "Edge.Cuts")
+		(layer "Cmts.User")
 		(uuid "7e7c2fce-92ea-479d-8c01-cd5268569638")
 		(effects
 			(font
@@ -5431,7 +5431,7 @@
 	)
 	(gr_text "1.0"
 		(at 269 194 0)
-		(layer "Edge.Cuts")
+		(layer "Cmts.User")
 		(uuid "a24db038-4913-49c9-8ea0-aa5391bbede6")
 		(effects
 			(font
@@ -5443,7 +5443,7 @@
 	)
 	(gr_text "11/9/24"
 		(at 207 194 0)
-		(layer "Edge.Cuts")
+		(layer "Cmts.User")
 		(uuid "c740bb1c-d39b-43f0-9718-f756354d88d0")
 		(effects
 			(font
@@ -5455,7 +5455,7 @@
 	)
 	(gr_text "Joystick physical dimentions"
 		(at 148 96 0)
-		(layer "Edge.Cuts")
+		(layer "Cmts.User")
 		(uuid "e8260c86-2365-4bb9-94ab-ef5b043c6598")
 		(effects
 			(font
