@@ -41,6 +41,11 @@ JoystickPCB-backups
 *.dsn
 *.ses
 
+# Gerber Files
+*.gbr
+*.drl
+GerberFiles
+
 # Exported BOM files
 *.xml
 *.csv
