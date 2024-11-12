@@ -2694,7 +2694,17 @@
 		)
 		(uuid "ffc0f964-5d63-4e1b-8351-42c00c45d664")
 	)
-	(text "1.1"
+	(text "For IMU"
+		(exclude_from_sim no)
+		(at 170.18 58.928 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "0a8ddf46-b33d-42c9-82b3-fcdc1f799e1e")
+	)
+	(text "1.2"
 		(exclude_from_sim no)
 		(at 271.018 193.294 0)
 		(effects
@@ -2704,7 +2714,7 @@
 		)
 		(uuid "32375a89-1c0c-44eb-a471-cc22d7c39e1d")
 	)
-	(text "11/6/2024\n"
+	(text "11/11/2024\n"
 		(exclude_from_sim no)
 		(at 212.598 193.294 0)
 		(effects
@@ -2734,6 +2744,16 @@
 		)
 		(uuid "733789e5-b3e8-471a-9c1b-845440524aea")
 	)
+	(text "Need to add another connector for the fingerprint reader"
+		(exclude_from_sim no)
+		(at 53.086 188.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "825c3788-0976-4e63-93aa-6cc222510d22")
+	)
 	(text "Joystick PCB"
 		(exclude_from_sim no)
 		(at 193.294 189.738 0)
@@ -2743,6 +2763,16 @@
 			)
 		)
 		(uuid "87a141e0-ecbf-4fb4-b598-eae671ea9a0d")
+	)
+	(text "Need to switch the microcontroller connector for 7 pin connector probably "
+		(exclude_from_sim no)
+		(at 64.262 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f7985ab-ce5c-41ed-87ee-c5c4c853d9e5")
 	)
 	(text "Power Supply"
 		(exclude_from_sim no)
@@ -2773,6 +2803,16 @@
 			)
 		)
 		(uuid "a9082cbc-907b-4538-8d83-024b0d18c4b7")
+	)
+	(text "Might want to swap these for right angle connectors"
+		(exclude_from_sim no)
+		(at 50.038 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4acd166-e1ed-482f-b437-708784ff1b25")
 	)
 	(text "To Joystick"
 		(exclude_from_sim no)
