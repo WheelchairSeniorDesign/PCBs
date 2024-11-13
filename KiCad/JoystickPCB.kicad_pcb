@@ -2138,7 +2138,7 @@
 			(at 0 -3.8 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d21d7c0e-3224-4eb0-8378-97244ed38247")
+			(uuid "01455efb-6a37-4d10-9715-e7f0b2eea8af")
 			(effects
 				(font
 					(size 1 1)
@@ -2149,7 +2149,7 @@
 		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 0 3.8 0)
 			(layer "F.Fab")
-			(uuid "dd06cfd6-0dcb-4310-be22-0b6918a4b90a")
+			(uuid "3638ef1e-f499-4be6-b1e6-fec4cedb9b91")
 			(effects
 				(font
 					(size 1 1)
@@ -2206,7 +2206,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "2fae7caf-5ad4-4e3d-9f01-72ce291cacd7")
+			(uuid "346ce79c-d0cd-4758-be55-97a0a63c84ec")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2217,12 +2217,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "61ec24d8-058b-470a-95e7-aac3274834e9")
+			(uuid "4ecc02ac-1c86-46f4-a008-69f658522f28")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "55ffd14f-d169-4d6f-a651-76063e8883d3")
+			(uuid "b74e8311-1866-4e0f-bc00-b9c35e229639")
 			(effects
 				(font
 					(size 1 1)
@@ -2236,7 +2236,7 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "3af1c796-205d-4ecb-98d8-a0f3fa2bbe8c")
+			(uuid "67a78bdf-7035-4ca3-b5b6-fb63cb32c98d")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -2888,7 +2888,7 @@
 			(at 0 -3.8 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d21d7c0e-3224-4eb0-8378-97244ed38247")
+			(uuid "24bd7d27-b99d-41af-8316-071271b0b695")
 			(effects
 				(font
 					(size 1 1)
@@ -2899,7 +2899,7 @@
 		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 0 3.8 0)
 			(layer "F.Fab")
-			(uuid "dd06cfd6-0dcb-4310-be22-0b6918a4b90a")
+			(uuid "9f507e45-e902-4e97-bb31-c180abcede67")
 			(effects
 				(font
 					(size 1 1)
@@ -2956,7 +2956,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "2fae7caf-5ad4-4e3d-9f01-72ce291cacd7")
+			(uuid "39bc4eb3-95f4-41ec-b96c-9fc8893b38ce")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2967,12 +2967,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "61ec24d8-058b-470a-95e7-aac3274834e9")
+			(uuid "5d85cefe-394a-4b12-97c7-2063e4b3661a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "55ffd14f-d169-4d6f-a651-76063e8883d3")
+			(uuid "0a971e64-874d-40b8-b05f-4f227a07b647")
 			(effects
 				(font
 					(size 1 1)
@@ -2986,7 +2986,7 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "3af1c796-205d-4ecb-98d8-a0f3fa2bbe8c")
+			(uuid "01eb9785-2e85-49fb-9c56-c609751ee2cf")
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6"
@@ -4513,7 +4513,7 @@
 			(at 0 -3.8 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d21d7c0e-3224-4eb0-8378-97244ed38247")
+			(uuid "92c87405-1f43-480c-8b41-7a50c884b273")
 			(effects
 				(font
 					(size 1 1)
@@ -4524,7 +4524,7 @@
 		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 0 3.8 0)
 			(layer "F.Fab")
-			(uuid "dd06cfd6-0dcb-4310-be22-0b6918a4b90a")
+			(uuid "82e1f16b-916b-41ac-9f8f-f3f1933b8000")
 			(effects
 				(font
 					(size 1 1)
@@ -4581,7 +4581,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "2fae7caf-5ad4-4e3d-9f01-72ce291cacd7")
+			(uuid "b578700b-3562-4b6c-a797-9ef597c18b05")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4592,12 +4592,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "61ec24d8-058b-470a-95e7-aac3274834e9")
+			(uuid "9189ee24-e671-4f6b-9e3c-1038dc002969")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "55ffd14f-d169-4d6f-a651-76063e8883d3")
+			(uuid "0c136bc2-770a-4950-958a-3c0dc46e4b98")
 			(effects
 				(font
 					(size 1 1)
@@ -4611,7 +4611,7 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "3af1c796-205d-4ecb-98d8-a0f3fa2bbe8c")
+			(uuid "8d750198-3d7e-4ec5-898a-fe6010ca92b9")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -6180,16 +6180,89 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 126 53)
-		(end 188 81)
+	(gr_line
+		(start 187 81)
+		(end 127 81)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "c4bb8fca-05f4-4800-9004-05088a058d0f")
+		(uuid "0642efd6-ca19-469b-8d4f-56cd8002d6b1")
+	)
+	(gr_line
+		(start 188 54)
+		(end 188 80)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1c873d09-9a46-4604-a83e-58a3b8447b42")
+	)
+	(gr_arc
+		(start 187 53)
+		(mid 187.707107 53.292893)
+		(end 188 54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3a69800c-ce20-4086-9c20-052bd76f7270")
+	)
+	(gr_arc
+		(start 188 80)
+		(mid 187.707107 80.707107)
+		(end 187 81)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5b718ed4-b1c6-4bef-b1f8-16c5c30b3148")
+	)
+	(gr_line
+		(start 126 54)
+		(end 126 80)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8247b4f1-8579-4287-85f5-c1842f08df28")
+	)
+	(gr_arc
+		(start 126 54)
+		(mid 126.292893 53.292893)
+		(end 127 53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "95879607-149f-41d4-bb96-5b5411ba7cfd")
+	)
+	(gr_arc
+		(start 127 81)
+		(mid 126.292893 80.707107)
+		(end 126 80)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e3d57559-53d0-41a0-ae8c-87574322c8b1")
+	)
+	(gr_line
+		(start 187 53)
+		(end 127 53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f4bdc4ee-f14f-4f22-b6ec-8daa3209ba3a")
 	)
 	(gr_text "Joystick"
 		(at 172 59 0)
@@ -6265,6 +6338,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Joystick Dimensions"
+		(at 153 98 0)
+		(layer "Cmts.User")
+		(uuid "3dc0e16e-421b-4b85-9e69-e523de5b8958")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Joystick ADC + IMU Breakout Board"
 		(at 186 191 0)
 		(layer "Cmts.User")
@@ -6301,6 +6386,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Might need to modify board size, although that will also proably change with the new connector"
+		(at 120 100 0)
+		(layer "Cmts.User")
+		(uuid "bf73a05d-a586-4e32-895f-61aa27eb9d23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "11/9/24"
 		(at 207 194 0)
 		(layer "Cmts.User")
@@ -6313,30 +6410,18 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Joystick physical dimentions"
-		(at 148 96 0)
-		(layer "Cmts.User")
-		(uuid "e8260c86-2365-4bb9-94ab-ef5b043c6598")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(dimension
 		(type aligned)
 		(layer "Cmts.User")
-		(uuid "407e352a-9214-4f1e-b9aa-0c1befe07e58")
+		(uuid "b432f2ae-8ffa-4d97-8954-d98b7df90800")
 		(pts
-			(xy 124 93) (xy 192 93)
+			(xy 189 96) (xy 136 96)
 		)
-		(height 1)
-		(gr_text "68.0000 mm"
-			(at 158 92.2 0)
+		(height 0)
+		(gr_text "53.0000 mm"
+			(at 161.876 94.1005 0)
 			(layer "Cmts.User")
-			(uuid "407e352a-9214-4f1e-b9aa-0c1befe07e58")
+			(uuid "b432f2ae-8ffa-4d97-8954-d98b7df90800")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -6354,7 +6439,7 @@
 		(style
 			(thickness 0.2)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
