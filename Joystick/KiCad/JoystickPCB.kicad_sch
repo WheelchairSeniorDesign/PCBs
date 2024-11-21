@@ -2227,12 +2227,6 @@
 		(uuid "16d447a2-d694-49ca-8bde-32f967a65fd5")
 	)
 	(junction
-		(at 184.15 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2275ccf8-0b08-4c65-bb5a-6f5c80863e30")
-	)
-	(junction
 		(at 153.67 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2249,12 +2243,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c969ddc-e84c-4187-9d83-aedf0c880b82")
-	)
-	(junction
-		(at 193.04 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9361bcc3-7154-470f-bd9b-f42ce835958e")
 	)
 	(junction
 		(at 224.79 77.47)
@@ -2368,16 +2356,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 127) (xy 184.15 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2991323d-6e12-4b76-823a-c69fcbba1542")
-	)
-	(wire
-		(pts
 			(xy 201.93 48.26) (xy 212.09 48.26)
 		)
 		(stroke
@@ -2468,16 +2446,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 144.78) (xy 193.04 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "518aeb96-d527-4c3e-bcd4-42bdc429ccb1")
-	)
-	(wire
-		(pts
 			(xy 110.49 20.32) (xy 110.49 29.21)
 		)
 		(stroke
@@ -2485,16 +2453,6 @@
 			(type default)
 		)
 		(uuid "528e52a0-d67c-4052-8b77-4712c6c10144")
-	)
-	(wire
-		(pts
-			(xy 204.47 127) (xy 184.15 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "534317e0-b954-4298-ad6b-9b809d34c193")
 	)
 	(wire
 		(pts
@@ -2658,16 +2616,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 144.78) (xy 184.15 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86e6691a-7cea-404a-a18e-d894e0ab1d3d")
-	)
-	(wire
-		(pts
 			(xy 201.93 45.72) (xy 212.09 45.72)
 		)
 		(stroke
@@ -2688,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 127) (xy 184.15 127)
+			(xy 179.07 127) (xy 204.47 127)
 		)
 		(stroke
 			(width 0)
@@ -2745,16 +2693,6 @@
 			(type default)
 		)
 		(uuid "9cea3a8e-f3f3-431b-8c8d-27dce38bb78c")
-	)
-	(wire
-		(pts
-			(xy 193.04 132.08) (xy 193.04 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df1f078-7e40-4af9-95c8-d2b6bc24c1a4")
 	)
 	(wire
 		(pts
@@ -2825,16 +2763,6 @@
 			(type default)
 		)
 		(uuid "ace17c39-2321-4b7b-8210-ca3f8e64d3c4")
-	)
-	(wire
-		(pts
-			(xy 189.23 132.08) (xy 193.04 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af2988bb-643b-46db-a647-726bd869e966")
 	)
 	(wire
 		(pts
@@ -3038,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 132.08) (xy 193.04 132.08)
+			(xy 189.23 132.08) (xy 204.47 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3626,17 +3554,6 @@
 		)
 		(uuid "dd351a37-a453-4652-97a4-76d1275048af")
 	)
-	(label "3.3V"
-		(at 184.15 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "debfdfb4-2fff-483d-8012-877bf50d5f44")
-	)
 	(label "GND"
 		(at 110.49 41.91 0)
 		(fields_autoplaced yes)
@@ -3669,17 +3586,6 @@
 			(justify left bottom)
 		)
 		(uuid "e7303d8a-8ce5-4232-ab1f-107aa6c7e826")
-	)
-	(label "3.3V"
-		(at 193.04 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e90c58dc-eea9-414a-854f-0c49d9c45f48")
 	)
 	(label "1.8V"
 		(at 158.75 55.88 0)
@@ -3877,76 +3783,6 @@
 			(project "JoystickPCB"
 				(path "/40b06a56-8aa7-465d-9cc9-72851af3998b"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 184.15 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fac091f-2059-4482-862f-d5d1aa116816")
-		(property "Reference" "R3"
-			(at 186.69 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 186.69 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 182.372 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 184.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05e6e109-bc30-4328-9284-370425ab44f5")
-		)
-		(pin "1"
-			(uuid "58d261b2-bc19-4eb0-a3ac-27d8d4f77b1f")
-		)
-		(instances
-			(project "JoystickPCB"
-				(path "/40b06a56-8aa7-465d-9cc9-72851af3998b"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4779,76 +4615,6 @@
 			(project "JoystickPCB"
 				(path "/40b06a56-8aa7-465d-9cc9-72851af3998b"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1c0d9ab-e48b-475d-9488-2f51d619f9cf")
-		(property "Reference" "R4"
-			(at 195.58 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 195.58 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 191.262 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31dad304-37b1-45ec-a6f0-edc0c1cf8d69")
-		)
-		(pin "1"
-			(uuid "69b4a1a5-8caa-42c1-9094-efe5248ebb12")
-		)
-		(instances
-			(project ""
-				(path "/40b06a56-8aa7-465d-9cc9-72851af3998b"
-					(reference "R4")
 					(unit 1)
 				)
 			)
