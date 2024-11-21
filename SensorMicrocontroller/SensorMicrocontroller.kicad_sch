@@ -5,6 +5,267 @@
 	(uuid "13d126c3-058e-4769-8500-e0ab3b4ccece")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Analog_ADC:ADS1115IDGS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADS1115IDGS"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
+				(at -1.27 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "16 bit 4 channel I2C ADC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADS1115IDGS_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ADS1115IDGS_1_1"
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "ALERT/RDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "AIN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "AIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
@@ -251,6 +512,127 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1322,6 +1704,102 @@
 			)
 		)
 	)
+	(junction
+		(at 189.23 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db0ab4da-010d-41c5-afef-8fbdb5948a1c")
+	)
+	(wire
+		(pts
+			(xy 189.23 123.19) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011758d7-2963-48f5-a872-e677e641f716")
+	)
+	(wire
+		(pts
+			(xy 124.46 54.61) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b9d283-e398-4853-854a-07d91117c345")
+	)
+	(wire
+		(pts
+			(xy 68.58 140.97) (xy 80.01 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201879ea-b243-4853-820b-6d48a6307748")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 133.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256f62fb-c135-4182-a8c9-a6023fa3fe65")
+	)
+	(wire
+		(pts
+			(xy 104.14 64.77) (xy 133.35 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8cc48a-bb0b-4e21-8ef1-c3db64b54526")
+	)
+	(wire
+		(pts
+			(xy 95.25 67.31) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33481796-6152-4491-bdef-73e265482ede")
+	)
+	(wire
+		(pts
+			(xy 95.25 45.72) (xy 95.25 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358b1a33-441b-465a-9e38-a70d5d6d2b0a")
+	)
+	(wire
+		(pts
+			(xy 95.25 67.31) (xy 133.35 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a079819-1557-43dd-afb0-9bad34c278bd")
+	)
+	(wire
+		(pts
+			(xy 184.15 135.89) (xy 189.23 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448a0190-ba08-4fa0-92a9-23b984d55e05")
+	)
 	(wire
 		(pts
 			(xy 41.91 80.01) (xy 49.53 80.01)
@@ -1344,6 +1822,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 39.37) (xy 193.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d686bf5-9eed-4347-880c-6cc29a3381b3")
+	)
+	(wire
+		(pts
 			(xy 41.91 74.93) (xy 49.53 74.93)
 		)
 		(stroke
@@ -1351,6 +1839,26 @@
 			(type default)
 		)
 		(uuid "7b2e1f34-9d1e-4b77-9369-0a206684fc03")
+	)
+	(wire
+		(pts
+			(xy 104.14 45.72) (xy 104.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3993de-7600-4286-9a3e-52915a63c749")
+	)
+	(wire
+		(pts
+			(xy 189.23 135.89) (xy 189.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96dda4fc-451e-4e37-af77-c1a0a8227e4a")
 	)
 	(wire
 		(pts
@@ -1364,6 +1872,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 64.77) (xy 104.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2005f80-285a-4401-9f8a-47db254ebf9d")
+	)
+	(wire
+		(pts
 			(xy 41.91 85.09) (xy 49.53 85.09)
 		)
 		(stroke
@@ -1371,6 +1889,16 @@
 			(type default)
 		)
 		(uuid "a6a9aa2f-e6c6-461d-99de-df1c209c3b71")
+	)
+	(wire
+		(pts
+			(xy 184.15 123.19) (xy 189.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3a17da-492d-44b9-8e34-ba2e7d056617")
 	)
 	(wire
 		(pts
@@ -1412,15 +1940,25 @@
 		)
 		(uuid "afe1098b-b127-4b50-b367-79531b028f8b")
 	)
-	(text "ADD I2C PULLUPS HERE!!!!!"
+	(text "Need to finish this next"
 		(exclude_from_sim no)
-		(at 104.394 74.676 0)
+		(at 58.42 151.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "d9eeea12-394b-4a00-a6d3-8f4d4537823b")
+		(uuid "d1103bf1-3b3e-4023-9dc0-5b40eee98c1e")
+	)
+	(text "I2C Addresses for ADS\nJoystick: GND\nUltrasonic1: 3.3\nUse SCL next"
+		(exclude_from_sim no)
+		(at 25.146 174.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d574c8db-4a86-43f9-9195-aeb5f936ee43")
 	)
 	(label "SDA"
 		(at 49.53 80.01 0)
@@ -1433,7 +1971,7 @@
 		)
 		(uuid "0a6d7958-30af-48c8-a88b-943d35f658d6")
 	)
-	(label "RX"
+	(label "RXFinger"
 		(at 49.53 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1444,7 +1982,18 @@
 		)
 		(uuid "255e945c-9bc9-4cac-925c-5a8876c79565")
 	)
-	(label "TX"
+	(label "TXFinger"
+		(at 124.46 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25c1412e-78a4-4013-a288-e990a2764fae")
+	)
+	(label "TXFinger"
 		(at 49.53 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1465,6 +2014,28 @@
 			(justify left bottom)
 		)
 		(uuid "4d870efb-7232-48ae-be66-9b4ec192d485")
+	)
+	(label "SCL"
+		(at 111.76 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "626d3159-fba1-4da2-b9aa-2574d70f5411")
+	)
+	(label "SDA"
+		(at 111.76 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fa8724b-14e5-4fd3-842a-344dca6dc504")
 	)
 	(label "1.0"
 		(at 269.24 194.31 0)
@@ -1487,6 +2058,28 @@
 			(justify left bottom)
 		)
 		(uuid "76d2bf7c-5c57-4ad0-a240-07785f2d94d7")
+	)
+	(label "RXFinger"
+		(at 124.46 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77203ee3-794b-4ed0-9500-3256754be395")
+	)
+	(label "3.3V"
+		(at 95.25 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7872ecb6-6b2f-49df-923b-72c8461a5f68")
 	)
 	(label "By Robbie Leslie"
 		(at 265.43 190.5 0)
@@ -1520,6 +2113,144 @@
 			(justify left bottom)
 		)
 		(uuid "afbcf815-7371-426f-838d-fa352f481608")
+	)
+	(label "3.3V"
+		(at 104.14 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b638f450-382f-49d1-b566-65cf525d412d")
+	)
+	(label "3.3V"
+		(at 193.04 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc107522-0c4b-46d8-8c99-37331bc17c41")
+	)
+	(label "3.3V"
+		(at 80.01 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c39a4494-c973-4352-80d0-ca89f8f2078d")
+	)
+	(label "GND"
+		(at 194.31 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d74a2d17-5d29-4909-8986-33b1abfb85c3")
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1115IDGS")
+		(at 58.42 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b3102cc-2c30-403e-91dd-20e41c17c9fb")
+		(property "Reference" "U2"
+			(at 60.6141 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1115IDGS"
+			(at 60.6141 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
+			(at 57.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(at 58.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "7d61e500-0d03-4c03-8769-e9027b3cc922")
+		)
+		(pin "4"
+			(uuid "e99f6144-4db0-4743-9cc2-0c0969d0f3bd")
+		)
+		(pin "7"
+			(uuid "c3d0717d-8dd5-4a4e-ac0b-dab308a69ec2")
+		)
+		(pin "1"
+			(uuid "9dc3497b-9a7c-45cc-803e-88adb2da37d8")
+		)
+		(pin "5"
+			(uuid "aa48d0a4-6936-44a8-a944-d7a459145302")
+		)
+		(pin "6"
+			(uuid "164327e2-cf99-4805-9d5e-0a1484fdd40b")
+		)
+		(pin "9"
+			(uuid "2480a32f-eef0-4be7-89f2-3073ab4cb854")
+		)
+		(pin "8"
+			(uuid "e5795c07-24f1-404e-879a-6509a38f7c03")
+		)
+		(pin "2"
+			(uuid "29707a54-5b66-4a07-8ff2-d7c1ceb3a1fa")
+		)
+		(pin "3"
+			(uuid "4f7e6158-65cc-4395-a8d5-d5277e78ad03")
+		)
+		(instances
+			(project ""
+				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Pico:SC0915")
@@ -1778,6 +2509,146 @@
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9154618c-b543-48fe-b7be-829afc2293cb")
+		(property "Reference" "R2"
+			(at 97.79 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 97.79 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 93.472 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58670e66-c088-41fa-9a02-7ecd2548f15d")
+		)
+		(pin "2"
+			(uuid "00506aff-63f7-4e28-a6e9-604a7b3f89ba")
+		)
+		(instances
+			(project "SensorMicrocontroller"
+				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b08ea038-91d7-442e-9155-5cf3f82e3565")
+		(property "Reference" "R1"
+			(at 106.68 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 106.68 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 102.362 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "470a6647-4818-4cd4-9e30-b9f5815fd6ba")
+		)
+		(pin "2"
+			(uuid "4f81d393-9f7a-4fc2-9c9e-f90855e6f613")
+		)
+		(instances
+			(project ""
+				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
+					(reference "R1")
 					(unit 1)
 				)
 			)
