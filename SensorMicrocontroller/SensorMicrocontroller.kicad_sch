@@ -4192,7 +4192,7 @@
 		)
 		(uuid "28031893-4a8b-41f7-9176-2a9839f5aa00")
 	)
-	(text "1/8/25"
+	(text "1/9/25"
 		(exclude_from_sim no)
 		(at 212.598 193.294 0)
 		(effects
@@ -4211,16 +4211,6 @@
 			)
 		)
 		(uuid "3c70dca5-b095-4c8f-b816-1c54c879cc43")
-	)
-	(text "TODO select the fuse on white wire"
-		(exclude_from_sim no)
-		(at 201.168 144.018 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "44fe6a26-b6dd-4992-9b23-f7972c5a7103")
 	)
 	(text "Back"
 		(exclude_from_sim no)
@@ -4271,16 +4261,6 @@
 			)
 		)
 		(uuid "78d3bdfe-330a-463c-8738-ad8f423b88cb")
-	)
-	(text "TODO verify the light wiring diagram and check that \nyou use the 12V to switch the light and not GND"
-		(exclude_from_sim no)
-		(at 167.64 97.028 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7ed2fa6f-ed5a-48e1-b64b-4d42988cdf24")
 	)
 	(text "1.3"
 		(exclude_from_sim no)
@@ -4371,16 +4351,6 @@
 			)
 		)
 		(uuid "ea534b21-4356-4ccb-9c03-5ae61cfe77d4")
-	)
-	(text "TODO swap connectors for light wires to JST EH connector"
-		(exclude_from_sim no)
-		(at 155.194 140.716 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f7d5956a-0ca7-492d-9cc6-1413cabc58a6")
 	)
 	(text "12V in connector"
 		(exclude_from_sim no)
@@ -7356,7 +7326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 199.39 154.178 90)
 			(effects
 				(font
@@ -7365,7 +7335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MFU0805FF01000P500/1202619"
 			(at 199.39 152.4 0)
 			(effects
 				(font
@@ -7374,7 +7344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "MFU0805FF01000P500"
 			(at 199.39 152.4 0)
 			(effects
 				(font
@@ -8303,7 +8273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
 			(at 146.05 149.86 0)
 			(effects
 				(font
