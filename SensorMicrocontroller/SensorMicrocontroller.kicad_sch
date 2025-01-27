@@ -4272,6 +4272,36 @@
 		)
 		(uuid "815e03fd-dff0-4894-be36-332a7e693a7a")
 	)
+	(text "Fan2"
+		(exclude_from_sim no)
+		(at 113.03 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87420e39-f097-43e7-9c24-c85c953b6d3e")
+	)
+	(text "Fan1"
+		(exclude_from_sim no)
+		(at 155.194 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e2ce5d2-c8a9-4fd7-80b4-c990fa0a492d")
+	)
+	(text "Fan0"
+		(exclude_from_sim no)
+		(at 113.284 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "917abdf9-2655-4f6f-a8d8-237e95e7b5eb")
+	)
 	(text "Front by Screen"
 		(exclude_from_sim no)
 		(at 27.686 65.786 0)
@@ -4342,6 +4372,16 @@
 		)
 		(uuid "d574c8db-4a86-43f9-9195-aeb5f936ee43")
 	)
+	(text "Fan3"
+		(exclude_from_sim no)
+		(at 155.194 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6d942b8-0a0b-446b-9c2d-ae6aff8dc66b")
+	)
 	(text "By Robbie Leslie"
 		(exclude_from_sim no)
 		(at 273.304 189.738 0)
@@ -4374,7 +4414,6 @@
 	)
 	(label "12V"
 		(at 120.65 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4385,7 +4424,6 @@
 	)
 	(label "PIR3"
 		(at 95.25 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4396,7 +4434,6 @@
 	)
 	(label "3.3V"
 		(at 168.91 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4407,7 +4444,6 @@
 	)
 	(label "SDA"
 		(at 52.07 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4418,7 +4454,6 @@
 	)
 	(label "GND"
 		(at 162.56 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4429,7 +4464,6 @@
 	)
 	(label "12V"
 		(at 151.13 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4440,7 +4474,6 @@
 	)
 	(label "Fan Sense3"
 		(at 271.78 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4451,7 +4484,6 @@
 	)
 	(label "Fan Sense0"
 		(at 132.08 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4462,7 +4494,6 @@
 	)
 	(label "Light Black Wire"
 		(at 171.45 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4473,7 +4504,6 @@
 	)
 	(label "US3"
 		(at 95.25 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4484,7 +4514,6 @@
 	)
 	(label "Light Red Wire"
 		(at 147.32 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4495,7 +4524,6 @@
 	)
 	(label "RXFinger"
 		(at 52.07 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4506,7 +4534,6 @@
 	)
 	(label "GND"
 		(at 114.3 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4517,7 +4544,6 @@
 	)
 	(label "TXFinger"
 		(at 207.01 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4528,7 +4554,6 @@
 	)
 	(label "3.3V"
 		(at 45.72 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4539,7 +4564,6 @@
 	)
 	(label "PWM0 5V"
 		(at 120.65 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4550,7 +4574,6 @@
 	)
 	(label "Fan Sense2"
 		(at 271.78 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4561,7 +4584,6 @@
 	)
 	(label "PIR1"
 		(at 91.44 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4572,7 +4594,6 @@
 	)
 	(label "PIR0"
 		(at 44.45 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4583,7 +4604,6 @@
 	)
 	(label "12V"
 		(at 162.56 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4594,7 +4614,6 @@
 	)
 	(label "TXFinger"
 		(at 52.07 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4605,7 +4624,6 @@
 	)
 	(label "Light Blue Wire"
 		(at 158.75 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4616,7 +4634,6 @@
 	)
 	(label "PWM1 5V"
 		(at 162.56 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4627,7 +4644,6 @@
 	)
 	(label "PWM2 3.3V"
 		(at 271.78 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4638,7 +4654,6 @@
 	)
 	(label "GND"
 		(at 120.65 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4649,7 +4664,6 @@
 	)
 	(label "PWM0 3.3V"
 		(at 63.5 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4660,7 +4674,6 @@
 	)
 	(label "GND"
 		(at 82.55 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4671,7 +4684,6 @@
 	)
 	(label "PWM0 5V"
 		(at 114.3 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4682,7 +4694,6 @@
 	)
 	(label "GND"
 		(at 95.25 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4693,7 +4704,6 @@
 	)
 	(label "GND"
 		(at 82.55 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4704,7 +4714,6 @@
 	)
 	(label "GND"
 		(at 82.55 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4715,7 +4724,6 @@
 	)
 	(label "Fan Sense1"
 		(at 172.72 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4726,7 +4734,6 @@
 	)
 	(label "Fan Sense3"
 		(at 173.99 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4737,7 +4744,6 @@
 	)
 	(label "12V"
 		(at 114.3 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4748,7 +4754,6 @@
 	)
 	(label "US2"
 		(at 45.72 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4759,7 +4764,6 @@
 	)
 	(label "GND"
 		(at 45.72 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4770,7 +4774,6 @@
 	)
 	(label "3.3V"
 		(at 52.07 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4781,7 +4784,6 @@
 	)
 	(label "5V"
 		(at 114.3 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4792,7 +4794,6 @@
 	)
 	(label "US2"
 		(at 17.78 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4803,7 +4804,6 @@
 	)
 	(label "12V"
 		(at 185.42 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4814,7 +4814,6 @@
 	)
 	(label "3.3V"
 		(at 44.45 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4825,7 +4824,6 @@
 	)
 	(label "GND"
 		(at 82.55 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4836,7 +4834,6 @@
 	)
 	(label "US0"
 		(at 44.45 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4847,7 +4844,6 @@
 	)
 	(label "Fan Sense0"
 		(at 271.78 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4858,7 +4854,6 @@
 	)
 	(label "GND"
 		(at 151.13 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4869,7 +4864,6 @@
 	)
 	(label "GND"
 		(at 162.56 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4880,7 +4874,6 @@
 	)
 	(label "Light On 2"
 		(at 171.45 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4891,7 +4884,6 @@
 	)
 	(label "Light Pin 1"
 		(at 62.23 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4902,7 +4894,6 @@
 	)
 	(label "GND"
 		(at 153.67 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4913,7 +4904,6 @@
 	)
 	(label "SCL"
 		(at 194.31 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4924,7 +4914,6 @@
 	)
 	(label "GND"
 		(at 114.3 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4935,7 +4924,6 @@
 	)
 	(label "PWM1 5V"
 		(at 114.3 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4946,7 +4934,6 @@
 	)
 	(label "PWM1 3.3V"
 		(at 63.5 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4957,7 +4944,6 @@
 	)
 	(label "US3"
 		(at 17.78 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4968,7 +4954,6 @@
 	)
 	(label "PWM0 3.3V"
 		(at 271.78 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4979,7 +4964,6 @@
 	)
 	(label "5V"
 		(at 114.3 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4990,7 +4974,6 @@
 	)
 	(label "GND"
 		(at 38.1 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5001,7 +4984,6 @@
 	)
 	(label "PIR0"
 		(at 205.74 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5012,7 +4994,6 @@
 	)
 	(label "PWM2 5V"
 		(at 114.3 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5023,7 +5004,6 @@
 	)
 	(label "SDA"
 		(at 199.39 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5034,7 +5014,6 @@
 	)
 	(label "SDA"
 		(at 54.61 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5045,7 +5024,6 @@
 	)
 	(label "GND"
 		(at 52.07 21.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5056,7 +5034,6 @@
 	)
 	(label "RXFinger"
 		(at 207.01 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5067,7 +5044,6 @@
 	)
 	(label "PIR1"
 		(at 205.74 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5078,7 +5054,6 @@
 	)
 	(label "3.3V"
 		(at 190.5 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5089,7 +5064,6 @@
 	)
 	(label "US0"
 		(at 17.78 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5100,7 +5074,6 @@
 	)
 	(label "GND"
 		(at 120.65 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5111,7 +5084,6 @@
 	)
 	(label "PWM2 5V"
 		(at 120.65 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5122,7 +5094,6 @@
 	)
 	(label "GND"
 		(at 82.55 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5133,7 +5104,6 @@
 	)
 	(label "PWM3 3.3V"
 		(at 271.78 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5144,7 +5114,6 @@
 	)
 	(label "PIR3"
 		(at 271.78 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5155,7 +5124,6 @@
 	)
 	(label "Light Pin 2"
 		(at 62.23 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5166,7 +5134,6 @@
 	)
 	(label "5V"
 		(at 114.3 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5177,7 +5144,6 @@
 	)
 	(label "GND"
 		(at 114.3 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5188,7 +5154,6 @@
 	)
 	(label "GND"
 		(at 82.55 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5199,7 +5164,6 @@
 	)
 	(label "Light On 1"
 		(at 114.3 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5210,7 +5174,6 @@
 	)
 	(label "12V"
 		(at 120.65 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5221,7 +5184,6 @@
 	)
 	(label "Light Red Wire"
 		(at 190.5 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5232,7 +5194,6 @@
 	)
 	(label "Fan Sense1"
 		(at 271.78 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5243,7 +5204,6 @@
 	)
 	(label "PWM3 3.3V"
 		(at 63.5 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5254,7 +5214,6 @@
 	)
 	(label "SCL"
 		(at 52.07 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5265,7 +5224,6 @@
 	)
 	(label "PWM3 5V"
 		(at 162.56 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5276,7 +5234,6 @@
 	)
 	(label "PWM1 3.3V"
 		(at 271.78 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5287,7 +5244,6 @@
 	)
 	(label "3.3V"
 		(at 91.44 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5298,7 +5254,6 @@
 	)
 	(label "5V"
 		(at 114.3 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5309,7 +5264,6 @@
 	)
 	(label "3.3V"
 		(at 129.54 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5320,7 +5274,6 @@
 	)
 	(label "Light On 2"
 		(at 114.3 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5331,7 +5284,6 @@
 	)
 	(label "PIR2"
 		(at 205.74 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5342,7 +5294,6 @@
 	)
 	(label "Light On 1"
 		(at 128.27 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5353,7 +5304,6 @@
 	)
 	(label "3.3V"
 		(at 199.39 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5364,7 +5314,6 @@
 	)
 	(label "Light Pin 2"
 		(at 271.78 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5375,7 +5324,6 @@
 	)
 	(label "Light White Wire"
 		(at 158.75 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5386,7 +5334,6 @@
 	)
 	(label "SCL"
 		(at 54.61 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5397,7 +5344,6 @@
 	)
 	(label "3.3V"
 		(at 95.25 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5408,7 +5354,6 @@
 	)
 	(label "3.3V"
 		(at 275.59 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5419,7 +5364,6 @@
 	)
 	(label "Light White Wire"
 		(at 210.82 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5430,7 +5374,6 @@
 	)
 	(label "12V"
 		(at 114.3 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5441,7 +5384,6 @@
 	)
 	(label "3.3V"
 		(at 54.61 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5452,7 +5394,6 @@
 	)
 	(label "GND"
 		(at 114.3 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5463,7 +5404,6 @@
 	)
 	(label "Light Blue Wire"
 		(at 147.32 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5474,7 +5414,6 @@
 	)
 	(label "Light Red Wire"
 		(at 158.75 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5485,7 +5424,6 @@
 	)
 	(label "GND"
 		(at 276.86 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5496,7 +5434,6 @@
 	)
 	(label "GND"
 		(at 44.45 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5507,7 +5444,6 @@
 	)
 	(label "PWM3 5V"
 		(at 114.3 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5518,7 +5454,6 @@
 	)
 	(label "GND"
 		(at 38.1 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5529,7 +5464,6 @@
 	)
 	(label "5V"
 		(at 275.59 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5540,7 +5474,6 @@
 	)
 	(label "3.3V"
 		(at 128.27 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5551,7 +5484,6 @@
 	)
 	(label "Fan Sense2"
 		(at 132.08 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5562,7 +5494,6 @@
 	)
 	(label "PIR2"
 		(at 45.72 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5573,7 +5504,6 @@
 	)
 	(label "12V"
 		(at 162.56 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5584,7 +5514,6 @@
 	)
 	(label "Light Black Wire"
 		(at 158.75 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5595,7 +5524,6 @@
 	)
 	(label "US1"
 		(at 17.78 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5606,7 +5534,6 @@
 	)
 	(label "GND"
 		(at 190.5 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5617,7 +5544,6 @@
 	)
 	(label "GND"
 		(at 91.44 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5628,7 +5554,6 @@
 	)
 	(label "US1"
 		(at 91.44 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5639,7 +5564,6 @@
 	)
 	(label "PWM2 3.3V"
 		(at 63.5 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5650,7 +5574,6 @@
 	)
 	(label "Light Pin 1"
 		(at 271.78 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5661,7 +5584,6 @@
 	)
 	(label "GND"
 		(at 114.3 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5672,7 +5594,6 @@
 	)
 	(label "3.3V"
 		(at 170.18 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5683,7 +5604,6 @@
 	)
 	(label "GND"
 		(at 114.3 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5739,6 +5659,15 @@
 			)
 		)
 		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ADS1115IDGSR"
 			(at 38.1 143.51 0)
 			(effects
 				(font
@@ -5805,7 +5734,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fan2"
+		(property "Value" "~"
 			(at 110.49 71.1199 0)
 			(effects
 				(font
@@ -5833,6 +5762,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0470531000"
 			(at 113.03 68.58 0)
 			(effects
 				(font
@@ -5881,7 +5819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fan3"
+		(property "Value" "~"
 			(at 152.4 71.1199 0)
 			(effects
 				(font
@@ -5909,6 +5847,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0470531000"
 			(at 154.94 68.58 0)
 			(effects
 				(font
@@ -5993,6 +5940,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "DMT6009LCT"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "311a4e5f-12d3-4731-bb88-39c665ee43af")
 		)
@@ -6029,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Value" "175"
+		(property "Value" "174"
 			(at 77.47 170.18 90)
 			(effects
 				(font
@@ -6056,6 +6012,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07174RL"
 			(at 77.47 173.99 0)
 			(effects
 				(font
@@ -6133,6 +6098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "B4B-PH-SM4-TB"
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "68f7d31e-292f-4ec5-b680-719f0304b252")
 		)
@@ -6173,7 +6147,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fan1"
+		(property "Value" "~"
 			(at 152.4 54.6099 0)
 			(effects
 				(font
@@ -6201,6 +6175,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0470531000"
 			(at 154.94 52.07 0)
 			(effects
 				(font
@@ -6248,7 +6231,7 @@
 				)
 			)
 		)
-		(property "Value" "175"
+		(property "Value" "174"
 			(at 77.47 182.88 90)
 			(effects
 				(font
@@ -6275,6 +6258,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07174RL"
 			(at 77.47 186.69 0)
 			(effects
 				(font
@@ -6352,6 +6344,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "B4B-PH-SM4-TB"
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "21e3ecc8-604f-480c-a1fa-3e9dabcf5749")
 		)
@@ -6419,6 +6420,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B4B-PH-SM4-TB"
 			(at 73.66 57.15 0)
 			(effects
 				(font
@@ -6503,6 +6513,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RR1220P-103-D"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "77cfce00-6bc0-44a8-81ad-04f4e7023ad9")
 		)
@@ -6536,7 +6555,7 @@
 				)
 			)
 		)
-		(property "Value" "175"
+		(property "Value" "174"
 			(at 77.47 105.41 90)
 			(effects
 				(font
@@ -6563,6 +6582,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07174RL"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -6605,12 +6633,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Optoisolators"
 			(at 97.79 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
@@ -6633,6 +6662,15 @@
 		)
 		(property "Description" ""
 			(at 97.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TLP2355(TPL,E"
+			(at 97.79 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +6721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fan0"
+		(property "Value" "~"
 			(at 110.49 54.6099 0)
 			(effects
 				(font
@@ -6711,6 +6749,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 113.03 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0470531000"
 			(at 113.03 52.07 0)
 			(effects
 				(font
@@ -6795,6 +6842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "DMT6009LCT"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3d90516d-e008-4461-a75c-08be85a52a59")
 		)
@@ -6831,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Value" "SC0915"
+		(property "Value" "Pico"
 			(at 241.3 22.86 0)
 			(effects
 				(font
@@ -6904,6 +6960,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SC0915"
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7094,12 +7159,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Optoisolators"
 			(at 97.79 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
@@ -7122,6 +7188,15 @@
 		)
 		(property "Description" ""
 			(at 97.79 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TLP2355(TPL,E"
+			(at 97.79 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,12 +7247,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Optoisolators"
 			(at 97.79 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
@@ -7200,6 +7276,15 @@
 		)
 		(property "Description" ""
 			(at 97.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TLP2355(TPL,E"
+			(at 97.79 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,6 +7370,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CRCW08054K70FKEAC"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58670e66-c088-41fa-9a02-7ecd2548f15d")
 		)
@@ -7353,6 +7447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "MFU0805FF01000P500"
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5cd3d86-2562-4551-9cb3-3a180c8fe25d")
 		)
@@ -7387,12 +7490,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Optoisolators"
 			(at 97.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
@@ -7415,6 +7519,15 @@
 		)
 		(property "Description" ""
 			(at 97.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TLP2355(TPL,E"
+			(at 97.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,6 +7614,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RR1220P-103-D"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e3206b65-cfed-4b4d-a5bb-2f3596b5bafe")
 		)
@@ -7571,6 +7693,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "CRCW08054K70FKEAC"
+			(at 199.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "470a6647-4818-4cd4-9e30-b9f5815fd6ba")
 		)
@@ -7605,12 +7736,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Optoisolators"
 			(at 97.79 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
@@ -7633,6 +7765,15 @@
 		)
 		(property "Description" ""
 			(at 97.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TLP2355(TPL,E"
+			(at 97.79 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7823,7 @@
 				)
 			)
 		)
-		(property "Value" "175"
+		(property "Value" "174"
 			(at 77.47 120.65 90)
 			(effects
 				(font
@@ -7709,6 +7850,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07174RL"
 			(at 77.47 124.46 0)
 			(effects
 				(font
@@ -7787,6 +7937,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RR1220P-103-D"
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b578df84-f6a4-40e1-8ce0-eea45226622f")
 		)
@@ -7821,12 +7980,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Optoisolators"
 			(at 97.79 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
@@ -7849,6 +8009,15 @@
 		)
 		(property "Description" ""
 			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TLP2355(TPL,E"
+			(at 97.79 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +8067,7 @@
 				)
 			)
 		)
-		(property "Value" "175"
+		(property "Value" "174"
 			(at 77.47 143.51 90)
 			(effects
 				(font
@@ -7925,6 +8094,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07174RL"
 			(at 77.47 147.32 0)
 			(effects
 				(font
@@ -7994,6 +8172,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B4B-PH-SM4-TB"
 			(at 27.94 81.28 0)
 			(effects
 				(font
@@ -8078,6 +8265,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "B2B-PH-SM4-TB"
+			(at 140.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d190e440-fffc-4053-a170-f88e9274eac6")
 		)
@@ -8140,6 +8336,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B-PH-SM4-TB"
 			(at 39.37 26.67 0)
 			(effects
 				(font
@@ -8230,6 +8435,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RR1220P-103-D"
+			(at 168.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5cea649b-a852-4a6e-a40d-183f623e47fa")
 		)
@@ -8300,6 +8514,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "B4B-EH-A"
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a686f36e-8dcb-43c1-a7db-6aeab3b715d9")
 		)
@@ -8339,7 +8562,7 @@
 				)
 			)
 		)
-		(property "Value" "175"
+		(property "Value" "174"
 			(at 77.47 157.48 90)
 			(effects
 				(font
@@ -8366,6 +8589,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0805FR-07174RL"
 			(at 77.47 161.29 0)
 			(effects
 				(font
@@ -8436,6 +8668,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0805KRX7R9BB104"
 			(at 38.1 119.38 0)
 			(effects
 				(font
