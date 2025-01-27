@@ -4192,7 +4192,7 @@
 		)
 		(uuid "28031893-4a8b-41f7-9176-2a9839f5aa00")
 	)
-	(text "1/9/25"
+	(text "1/27/25"
 		(exclude_from_sim no)
 		(at 212.598 193.294 0)
 		(effects
@@ -4262,7 +4262,7 @@
 		)
 		(uuid "78d3bdfe-330a-463c-8738-ad8f423b88cb")
 	)
-	(text "1.3"
+	(text "1.4"
 		(exclude_from_sim no)
 		(at 271.018 193.294 0)
 		(effects
