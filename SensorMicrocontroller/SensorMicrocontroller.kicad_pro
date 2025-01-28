@@ -536,8 +536,32 @@
         },
         {
           "group_by": false,
+          "label": "Fan Number",
+          "name": "Fan Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Header Connection",
+          "name": "Header Connection",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Header Connector",
+          "name": "Header Connector",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
           "show": false
         },
         {
@@ -562,18 +586,6 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Fan Number",
-          "name": "Fan Number",
           "show": false
         }
       ],

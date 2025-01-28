@@ -1531,6 +1531,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "OptoIsolators:TLP2355(TPL,E"
 			(pin_names
 				(offset 0.002)
@@ -1602,24 +1684,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "Vo"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -1667,6 +1731,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4192,7 +4274,7 @@
 		)
 		(uuid "28031893-4a8b-41f7-9176-2a9839f5aa00")
 	)
-	(text "1/9/25"
+	(text "1/28/25"
 		(exclude_from_sim no)
 		(at 212.598 193.294 0)
 		(effects
@@ -5582,7 +5664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3102cc-2c30-403e-91dd-20e41c17c9fb")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 40.2941 128.27 0)
 			(effects
 				(font
@@ -5669,7 +5751,7 @@
 		(instances
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5685,7 +5767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f595309-15f6-4f68-9184-638ea51e6dad")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 110.49 68.5799 0)
 			(effects
 				(font
@@ -5762,7 +5844,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5778,7 +5860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b5f0761-03cc-43f8-81f4-e4dc0ae8a01d")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 152.4 68.5799 0)
 			(effects
 				(font
@@ -5855,7 +5937,71 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J9")
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 152.4 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2921b3f9-8076-4616-891a-a144fa2ac098")
+		(property "Reference" "H4"
+			(at 154.94 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 154.94 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SensorMicrocontroller"
+				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5889,7 +6035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 149.86 118.11 0)
 			(effects
 				(font
@@ -5898,7 +6044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMT6009LCT/6051857"
+		(property "Datasheet" "~"
 			(at 144.78 120.65 0)
 			(effects
 				(font
@@ -5953,7 +6099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "363ee3a1-af44-4fdc-a2d5-959e553f97f0")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 77.47 167.64 90)
 			(effects
 				(font
@@ -6014,7 +6160,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6123,7 +6269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c9b9824-a848-45f4-bcbb-fd2b8600f44f")
-		(property "Reference" "J7"
+		(property "Reference" "J10"
 			(at 152.4 52.0699 0)
 			(effects
 				(font
@@ -6200,7 +6346,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J7")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6216,7 +6362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40517b07-de6d-4c9b-b11f-079d120e3ca6")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 77.47 180.34 90)
 			(effects
 				(font
@@ -6277,7 +6423,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4188ad65-c238-47fb-942e-f0dd7bca59d6")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 26.67 48.26 0)
 			(effects
 				(font
@@ -6370,7 +6516,71 @@
 		(instances
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J2")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 152.4 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4604b8f2-d272-421b-8fbc-7f5d14c1e7be")
+		(property "Reference" "H3"
+			(at 154.94 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 154.94 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 152.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 152.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SensorMicrocontroller"
+				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47e03080-b376-48d8-a29e-0ea7edfa646c")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 73.66 48.26 0)
 			(effects
 				(font
@@ -6463,7 +6673,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6479,7 +6689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "541a0474-8346-4825-a316-313d89a95d31")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 172.72 64.7699 0)
 			(effects
 				(font
@@ -6542,7 +6752,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6558,7 +6768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56d2746a-eb96-4f28-bf7a-e60fe8c67936")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 77.47 102.87 90)
 			(effects
 				(font
@@ -6619,7 +6829,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R11")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6698,7 +6908,7 @@
 		(pin "6"
 			(uuid "8ff1d332-3f71-45c4-93f4-caeccd2d4d84")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "26935ad2-ef83-4d55-930c-a74a2d8c450b")
 		)
 		(pin "3"
@@ -6834,7 +7044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 193.04 119.38 0)
 			(effects
 				(font
@@ -6843,7 +7053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMT6009LCT/6051857"
+		(property "Datasheet" "~"
 			(at 187.96 121.92 0)
 			(effects
 				(font
@@ -6898,7 +7108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706ed1f1-65a5-43d5-972f-13a3eee8b8f6")
-		(property "Reference" "U1"
+		(property "Reference" "U8"
 			(at 241.3 20.32 0)
 			(effects
 				(font
@@ -7153,7 +7363,7 @@
 		(instances
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "U1")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7232,7 +7442,7 @@
 		(pin "6"
 			(uuid "7a0c1022-a7e4-4667-96cb-f4d5d21eee0d")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "0fe35245-26a6-4372-9dc9-c2eed32bc32c")
 		)
 		(pin "3"
@@ -7242,6 +7452,70 @@
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 132.08 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "853cf9eb-35bd-48dc-a8f1-8fd324d1088f")
+		(property "Reference" "H1"
+			(at 134.62 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 134.62 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 132.08 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 132.08 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7320,7 +7594,7 @@
 		(pin "6"
 			(uuid "a0ec340c-4ee0-41cd-be96-090e653af4ee")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "f53dfeaa-36f5-4909-a9f5-4b1872f7ad4d")
 		)
 		(pin "3"
@@ -7344,7 +7618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9154618c-b543-48fe-b7be-829afc2293cb")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 193.04 49.5299 0)
 			(effects
 				(font
@@ -7407,7 +7681,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7448,7 +7722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MFU0805FF01000P500/1202619"
+		(property "Datasheet" "~"
 			(at 199.39 152.4 0)
 			(effects
 				(font
@@ -7457,7 +7731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MFU0805FF01000P500"
+		(property "Description" "Fuse"
 			(at 199.39 152.4 0)
 			(effects
 				(font
@@ -7500,7 +7774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9462aaea-5b27-4bb1-a37f-e09d46a10faa")
-		(property "Reference" "U8"
+		(property "Reference" "U2"
 			(at 97.79 106.934 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7563,7 +7837,7 @@
 		(pin "6"
 			(uuid "807704d1-1f4f-403f-9b65-e733a5316846")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "e9b001f4-eac8-4376-8af5-d81d2c7a741b")
 		)
 		(pin "3"
@@ -7572,7 +7846,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "U8")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7588,7 +7862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3e33a4f-84ff-437a-a1e6-f55d27eb228e")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 132.08 64.7699 0)
 			(effects
 				(font
@@ -7651,7 +7925,71 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R5")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 132.08 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f6857c-3faa-42b5-b326-a95187039b0a")
+		(property "Reference" "H2"
+			(at 134.62 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 134.62 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SensorMicrocontroller"
+				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7667,7 +8005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b08ea038-91d7-442e-9155-5cf3f82e3565")
-		(property "Reference" "R1"
+		(property "Reference" "R12"
 			(at 201.93 49.5299 0)
 			(effects
 				(font
@@ -7730,7 +8068,7 @@
 		(instances
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R1")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7746,7 +8084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b80a952d-cb75-416e-88f5-a4476d5ef3e1")
-		(property "Reference" "U9"
+		(property "Reference" "U3"
 			(at 97.79 122.174 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7809,7 +8147,7 @@
 		(pin "6"
 			(uuid "9c43926f-10a3-4893-bae2-dd38034b4238")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "0aa6ed74-b4ce-4f71-832d-ff033edc48fc")
 		)
 		(pin "3"
@@ -7818,7 +8156,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "U9")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7834,7 +8172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c588dc30-96ca-4efd-be23-d852d41a55d2")
-		(property "Reference" "R12"
+		(property "Reference" "R2"
 			(at 77.47 118.11 90)
 			(effects
 				(font
@@ -7895,7 +8233,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R12")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7911,7 +8249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b61c9b-b679-44e1-8e50-f93825205d68")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 130.81 48.2599 0)
 			(effects
 				(font
@@ -7974,7 +8312,7 @@
 		(instances
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8053,7 +8391,7 @@
 		(pin "6"
 			(uuid "2181da5c-50e9-47c0-85d8-3f8a3a97dbeb")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "520de60e-4c72-4dde-95f6-066226e35670")
 		)
 		(pin "3"
@@ -8078,7 +8416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dca3414c-758c-46a2-8373-b845d8e49511")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 77.47 140.97 90)
 			(effects
 				(font
@@ -8139,7 +8477,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8156,7 +8494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de5bec29-a9ec-4eca-b5f0-ce13dba5d33b")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 27.94 72.39 0)
 			(effects
 				(font
@@ -8232,7 +8570,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8248,7 +8586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e90f8d33-ce47-4d98-824e-92a25b59448a")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 138.43 82.5499 0)
 			(effects
 				(font
@@ -8320,7 +8658,7 @@
 		(instances
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8336,7 +8674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f18cf9dd-c036-4de7-901c-37f1baf6d5c0")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 36.83 26.6699 0)
 			(effects
 				(font
@@ -8420,7 +8758,7 @@
 		(instances
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8436,7 +8774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f61611-67aa-4992-887b-4487547ddcc2")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 171.45 48.2599 0)
 			(effects
 				(font
@@ -8499,7 +8837,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8515,7 +8853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8f075b3-f1e2-4d93-9833-f01aa34d379b")
-		(property "Reference" "J11"
+		(property "Reference" "J9"
 			(at 143.51 149.8599 0)
 			(effects
 				(font
@@ -8593,7 +8931,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J11")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8609,7 +8947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1ce967-88ec-4dbd-88de-a2fe8aa41e71")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 77.47 154.94 90)
 			(effects
 				(font
@@ -8670,7 +9008,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
