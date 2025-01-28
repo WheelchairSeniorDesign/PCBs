@@ -2757,12 +2757,6 @@
 		)
 	)
 	(junction
-		(at 139.7 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21520df3-50a5-427b-90c9-17b4e90e1f52")
-	)
-	(junction
 		(at 168.91 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2793,16 +2787,20 @@
 		(uuid "839d1615-acd2-4b0d-99e3-ba340fa8b5e3")
 	)
 	(junction
-		(at 182.88 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d690d878-890e-4c7b-bf86-94c72592daee")
-	)
-	(junction
 		(at 271.78 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db0ab4da-010d-41c5-afef-8fbdb5948a1c")
+	)
+	(wire
+		(pts
+			(xy 147.32 110.49) (xy 147.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001fc25b-8f56-4e8b-a21d-f369d8206516")
 	)
 	(wire
 		(pts
@@ -2826,16 +2824,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 147.32 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "013be7c6-6d0f-47c5-b2af-715f65c856af")
-	)
-	(wire
-		(pts
 			(xy 107.95 166.37) (xy 114.3 166.37)
 		)
 		(stroke
@@ -2853,16 +2841,6 @@
 			(type default)
 		)
 		(uuid "049f0980-2aee-4fda-bd42-5aaed09e6f77")
-	)
-	(wire
-		(pts
-			(xy 182.88 121.92) (xy 182.88 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06043213-95ef-44ab-9f22-c29f6a6c44ca")
 	)
 	(wire
 		(pts
@@ -3116,16 +3094,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 133.35) (xy 182.88 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3173f3a0-a4d8-4ccf-ad38-13cbd11a5a2b")
-	)
-	(wire
-		(pts
 			(xy 168.91 53.34) (xy 168.91 54.61)
 		)
 		(stroke
@@ -3206,16 +3174,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 120.65) (xy 139.7 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38954d19-1808-4784-a042-b9d946e8d0de")
-	)
-	(wire
-		(pts
 			(xy 266.7 48.26) (xy 271.78 48.26)
 		)
 		(stroke
@@ -3283,16 +3241,6 @@
 			(type default)
 		)
 		(uuid "3e56b6d0-d44e-4c09-839b-dfacba974e75")
-	)
-	(wire
-		(pts
-			(xy 147.32 125.73) (xy 147.32 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42150a19-6c61-472a-9575-117d4d605daa")
 	)
 	(wire
 		(pts
@@ -3566,7 +3514,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 140.97) (xy 171.45 140.97)
+			(xy 153.67 138.43) (xy 171.45 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3996,6 +3944,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 125.73) (xy 147.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bb0570-6e86-44f7-be70-36dcc05f869d")
+	)
+	(wire
+		(pts
 			(xy 266.7 73.66) (xy 271.78 73.66)
 		)
 		(stroke
@@ -4136,16 +4094,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 133.35) (xy 139.7 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f259ee2a-8237-46d4-b90e-70c90fdbbe5b")
-	)
-	(wire
-		(pts
 			(xy 120.65 57.15) (xy 118.11 57.15)
 		)
 		(stroke
@@ -4244,7 +4192,7 @@
 		)
 		(uuid "28031893-4a8b-41f7-9176-2a9839f5aa00")
 	)
-	(text "1/27/25"
+	(text "1/9/25"
 		(exclude_from_sim no)
 		(at 212.598 193.294 0)
 		(effects
@@ -4314,7 +4262,7 @@
 		)
 		(uuid "78d3bdfe-330a-463c-8738-ad8f423b88cb")
 	)
-	(text "1.4"
+	(text "1.3"
 		(exclude_from_sim no)
 		(at 271.018 193.294 0)
 		(effects
@@ -4323,36 +4271,6 @@
 			)
 		)
 		(uuid "815e03fd-dff0-4894-be36-332a7e693a7a")
-	)
-	(text "Fan2"
-		(exclude_from_sim no)
-		(at 113.03 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "87420e39-f097-43e7-9c24-c85c953b6d3e")
-	)
-	(text "Fan1"
-		(exclude_from_sim no)
-		(at 155.194 60.198 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8e2ce5d2-c8a9-4fd7-80b4-c990fa0a492d")
-	)
-	(text "Fan0"
-		(exclude_from_sim no)
-		(at 113.284 60.198 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "917abdf9-2655-4f6f-a8d8-237e95e7b5eb")
 	)
 	(text "Front by Screen"
 		(exclude_from_sim no)
@@ -4423,16 +4341,6 @@
 			)
 		)
 		(uuid "d574c8db-4a86-43f9-9195-aeb5f936ee43")
-	)
-	(text "Fan3"
-		(exclude_from_sim no)
-		(at 155.194 77.216 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e6d942b8-0a0b-446b-9c2d-ae6aff8dc66b")
 	)
 	(text "By Robbie Leslie"
 		(exclude_from_sim no)
@@ -4514,16 +4422,6 @@
 		)
 		(uuid "0bbcf4c3-a170-4272-be11-f16ddb36041b")
 	)
-	(label "GND"
-		(at 139.7 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17e459bc-d2e1-4a45-bbaa-d929b13f4a80")
-	)
 	(label "12V"
 		(at 151.13 85.09 0)
 		(effects
@@ -4555,7 +4453,7 @@
 		(uuid "19ef6221-2d76-4321-9dad-0cfc1416b99c")
 	)
 	(label "Light Black Wire"
-		(at 171.45 140.97 0)
+		(at 171.45 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4575,7 +4473,7 @@
 		(uuid "1cc0c4e3-78a0-4b64-aa9b-17e34677d8f0")
 	)
 	(label "Light Red Wire"
-		(at 147.32 133.35 0)
+		(at 147.32 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4955,7 +4853,7 @@
 		(uuid "61017688-c553-4da3-acef-7efd7f2a6ea2")
 	)
 	(label "GND"
-		(at 153.67 140.97 0)
+		(at 153.67 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5465,7 +5363,7 @@
 		(uuid "c3ad0ea8-26fa-4ffa-9cc1-e67131872a16")
 	)
 	(label "Light Blue Wire"
-		(at 147.32 110.49 0)
+		(at 147.32 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5483,16 +5381,6 @@
 			(justify left bottom)
 		)
 		(uuid "d44d559d-f130-46be-babe-0700d4432761")
-	)
-	(label "GND"
-		(at 182.88 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4ac2f1e-24e3-43b8-a1e7-ff29e794e447")
 	)
 	(label "GND"
 		(at 276.86 116.84 0)
@@ -5851,6 +5739,14 @@
 				(hide yes)
 			)
 		)
+		(property "Fan Number" "Fan2"
+			(at 113.03 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "094ea6ab-b52f-4c9f-965d-0c797ffa0456")
 		)
@@ -5936,6 +5832,14 @@
 				(hide yes)
 			)
 		)
+		(property "Fan Number" "Fan3"
+			(at 154.94 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ee7396ad-d8aa-4b8f-9869-f7ddf747001c")
 		)
@@ -5952,85 +5856,6 @@
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "247102a8-2a41-43e6-8561-bcfd18b86ebf")
-		(property "Reference" "R13"
-			(at 142.24 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 142.24 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 137.922 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RR1220P-103-D"
-			(at 139.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb06bdd7-b8cc-4f7d-8885-279e49e0bc73")
-		)
-		(pin "1"
-			(uuid "4bdef1ff-55d5-4b5e-a0b3-23545f5b0a8d")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6258,6 +6083,15 @@
 				(hide yes)
 			)
 		)
+		(property "Header Connection" "Right"
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "68f7d31e-292f-4ec5-b680-719f0304b252")
 		)
@@ -6341,6 +6175,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Fan Number" "Fan1"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -6504,6 +6346,15 @@
 				(hide yes)
 			)
 		)
+		(property "Header Connection" "Front Screen"
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "21e3ecc8-604f-480c-a1fa-3e9dabcf5749")
 		)
@@ -6580,6 +6431,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B4B-PH-SM4-TB"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Header Connection" "Back"
 			(at 73.66 57.15 0)
 			(effects
 				(font
@@ -6915,6 +6775,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Fan Number" "Fan0"
+			(at 113.03 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -7374,85 +7242,6 @@
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 182.88 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83484564-636b-4a65-82f2-ac24b98b7223")
-		(property "Reference" "R14"
-			(at 185.42 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 185.42 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 181.102 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RR1220P-103-D"
-			(at 182.88 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1e7b618-8ae6-4e1e-b465-e88324b09b45")
-		)
-		(pin "1"
-			(uuid "4895f0e3-4b7c-45b4-80b6-921c342ecfe7")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8419,6 +8208,15 @@
 				(hide yes)
 			)
 		)
+		(property "Header Connection" "Left"
+			(at 27.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "43c87781-0fe6-42d6-bd7c-25888fde46c9")
 		)
@@ -8504,6 +8302,15 @@
 				(hide yes)
 			)
 		)
+		(property "Header Connection" "12V"
+			(at 140.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d190e440-fffc-4053-a170-f88e9274eac6")
 		)
@@ -8575,6 +8382,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B6B-PH-SM4-TB"
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Header Connection" "Joystick"
 			(at 39.37 26.67 0)
 			(effects
 				(font
@@ -8745,6 +8561,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B4B-EH-A"
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Header Connector" "Light"
 			(at 146.05 149.86 0)
 			(effects
 				(font
