@@ -160,7 +160,7 @@
 		(descr "JST EH series connector, B4B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "J9"
-			(at 3.75 -2.8 -90)
+			(at -1.25 -3.06 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4fb69db3-a373-4b9b-a5b3-4429efcfbd07")
@@ -6451,7 +6451,7 @@
 		(descr "JST PH series connector, B4B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J5"
-			(at 0.4 4.75 90)
+			(at 5.9 4.75 90)
 			(layer "F.SilkS")
 			(uuid "3476442a-c812-49a0-9149-f51c69b9642f")
 			(effects
@@ -6524,8 +6524,8 @@
 				)
 			)
 		)
-		(property "Header Connection" "Right"
-			(at -4.6 4.75 90)
+		(property "Header Connection" "Right Sensors"
+			(at -0.85 4.75 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5ef012fe-b7fe-457b-b708-685171b9ef5d")
@@ -6976,7 +6976,7 @@
 		(descr "JST PH series connector, B4B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J2"
-			(at 0 5 -90)
+			(at 5.75 4.75 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ba22114e-bf80-4059-8fb8-f96427407362")
@@ -7050,8 +7050,8 @@
 				)
 			)
 		)
-		(property "Header Connection" "Left"
-			(at -5 4.75 -90)
+		(property "Header Connection" "Left Sensors"
+			(at -1.25 4.75 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "dec9c316-3604-42df-8634-76cff51a745e")
@@ -8336,7 +8336,7 @@
 		(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
 		(tags "pin header 4-pin CPU fan")
 		(property "Reference" "J6"
-			(at 4 4.5 -90)
+			(at 7.29 4.75 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d855c358-3c4d-4def-9dc3-83b922782fb1")
@@ -10719,8 +10719,8 @@
 				)
 			)
 		)
-		(property "Header Connection" "Back"
-			(at -2.9 4.75 0)
+		(property "Header Connection" "Back Sensors"
+			(at -2.5 4.75 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6fee6bfd-6abe-487c-919f-70c4568df6cc")
@@ -12049,7 +12049,7 @@
 		(descr "JST PH series connector, B6B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J3"
-			(at 0 4.75 90)
+			(at -7.25 4.5 90)
 			(layer "F.SilkS")
 			(uuid "5cf45c1f-aa76-412f-b27c-f4f459e88c13")
 			(effects
@@ -12123,7 +12123,7 @@
 			)
 		)
 		(property "Header Connection" "Joystick"
-			(at 5 4.75 90)
+			(at 4.75 4.75 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9a2c18bc-841b-451f-996c-b26a524967e1")
@@ -14831,7 +14831,7 @@
 		(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
 		(tags "pin header 4-pin CPU fan")
 		(property "Reference" "J10"
-			(at 4 4.5 90)
+			(at 7.55 4.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f11b768a-fa5f-4f44-8086-2955ea313f61")
