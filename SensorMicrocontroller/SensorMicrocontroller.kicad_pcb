@@ -160,7 +160,7 @@
 		(descr "JST EH series connector, B4B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "J9"
-			(at 3.75 -2.8 270)
+			(at 3.75 -2.8 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4fb69db3-a373-4b9b-a5b3-4429efcfbd07")
@@ -5474,7 +5474,7 @@
 		(descr "JST PH series connector, B4B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J1"
-			(at 6 4.5 360)
+			(at 6 4.5 0)
 			(layer "F.SilkS")
 			(uuid "40b6c5a0-4e47-498e-994a-2b9033d71c36")
 			(effects
@@ -5485,7 +5485,7 @@
 			)
 		)
 		(property "Value" "JST B4B-PH-SM4-TB"
-			(at 0 4.45 360)
+			(at 0 4.45 0)
 			(layer "F.Fab")
 			(uuid "67bd802e-6c75-438a-aa32-0e81d1750be9")
 			(effects
@@ -5905,7 +5905,7 @@
 			(uuid "4bc1b43c-b791-41ae-81b6-d347d0c76b75")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1 360)
+			(at 0 -1 0)
 			(layer "F.Fab")
 			(uuid "5c10323a-212e-4ad8-a608-32566242719c")
 			(effects
@@ -5971,13 +5971,24 @@
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.9 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Library/3D Models/B4B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 1.9 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -5988,7 +5999,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "c40ace95-747b-41aa-a183-134530a244e8")
 			(effects
@@ -5999,7 +6010,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "ef7998eb-1067-47d7-b023-0c8dc74f5a77")
 			(effects
@@ -6167,7 +6178,7 @@
 			(uuid "017ee635-3731-4c45-bd8e-c445609415fd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a8c24cb8-6d3c-49e3-92f4-79ef73f40ec0")
 			(effects
@@ -6214,7 +6225,7 @@
 		(descr "Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F1"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "4aaaa461-b54a-4381-8cbe-36748898c92a")
 			(effects
@@ -6225,7 +6236,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "5027b26f-b726-4933-9b28-9b3338b705f9")
 			(effects
@@ -6393,7 +6404,7 @@
 			(uuid "0fef7a23-1e23-431b-b4fc-c6d0c895db80")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e28a27f7-6a96-4f34-92c9-6b29a15cfa26")
 			(effects
@@ -6946,6 +6957,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/Library/3D Models/B4B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 1.9 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
@@ -6954,7 +6976,7 @@
 		(descr "JST PH series connector, B4B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J2"
-			(at 0 5 270)
+			(at 0 5 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ba22114e-bf80-4059-8fb8-f96427407362")
@@ -7461,6 +7483,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/Library/3D Models/B4B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 1.9 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -7481,7 +7514,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 4.05 4.35 360)
+			(at 4.05 4.35 0)
 			(layer "F.Fab")
 			(uuid "d27df99b-4189-4b7e-857b-89c1374a5f08")
 			(effects
@@ -7771,7 +7804,7 @@
 			(uuid "85e545a7-3023-458f-b2cb-0e59e29bf0c4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.85 -1.75 360)
+			(at 1.85 -1.75 0)
 			(layer "F.Fab")
 			(uuid "512de70e-3bd7-404c-8826-2e2c6f5b5c96")
 			(effects
@@ -7851,7 +7884,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "b60964fa-58ea-4f87-9fed-3cfb5e0def2b")
 			(effects
@@ -7862,7 +7895,7 @@
 			)
 		)
 		(property "Value" "174"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "3a3f36d5-8d08-4315-b24b-bce5b20fb70a")
 			(effects
@@ -8030,7 +8063,7 @@
 			(uuid "72555cdc-f591-42e1-9ede-db4b768b7d70")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a910116c-1bea-4f68-aa5e-375b41a8d8b4")
 			(effects
@@ -8303,7 +8336,7 @@
 		(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
 		(tags "pin header 4-pin CPU fan")
 		(property "Reference" "J6"
-			(at 4 4.5 270)
+			(at 4 4.5 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d855c358-3c4d-4def-9dc3-83b922782fb1")
@@ -9709,7 +9742,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "acf724d5-a5e9-4146-9038-ff785a5d7b42")
 			(effects
@@ -9720,7 +9753,7 @@
 			)
 		)
 		(property "Value" "174"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e274e9aa-9927-4553-a97a-1a9a559ca801")
 			(effects
@@ -9888,7 +9921,7 @@
 			(uuid "7a9727b9-1dea-4afa-8541-eb9459da78c9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4c793019-b93d-4983-a5fb-0fb489e37409")
 			(effects
@@ -9935,7 +9968,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "4efefee5-5f87-401e-ba24-c1ccf90e8436")
 			(effects
@@ -9946,7 +9979,7 @@
 			)
 		)
 		(property "Value" "174"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e8219c33-2c20-4029-8e5c-234d97ac8cdb")
 			(effects
@@ -10114,7 +10147,7 @@
 			(uuid "fe5e258e-cfb1-4f2d-949a-f59743f69ba9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b0a9ad42-5b63-4dee-b24a-fa7e8ba1d793")
 			(effects
@@ -10161,7 +10194,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "6e0d28c1-accc-4b25-b115-f38637f6686a")
 			(effects
@@ -10172,7 +10205,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "a2d50529-3bca-4417-809d-3e9626d3ff63")
 			(effects
@@ -10340,7 +10373,7 @@
 			(uuid "29f9ec2a-43e2-45bd-b529-1221ad3b2e52")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8d246d78-54a1-4a13-927d-6446605fd255")
 			(effects
@@ -10613,7 +10646,7 @@
 		(descr "JST PH series connector, B4B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J4"
-			(at 4.6 4.75 360)
+			(at 4.6 4.75 0)
 			(layer "F.SilkS")
 			(uuid "8fed80c9-b8cd-4ad9-83fe-b0b407b50868")
 			(effects
@@ -10624,7 +10657,7 @@
 			)
 		)
 		(property "Value" "JST B4B-PH-SM4-TB"
-			(at 0 4.45 360)
+			(at 0 4.45 0)
 			(layer "F.Fab")
 			(uuid "0b3dea7c-33e3-49bf-92bc-3ca6326ee2ba")
 			(effects
@@ -11044,7 +11077,7 @@
 			(uuid "a2d3477b-27f7-4fed-b32c-2eba75856e3e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1 360)
+			(at 0 -1 0)
 			(layer "F.Fab")
 			(uuid "4ea7b837-ea8c-4f24-90bf-8e66ce5a8699")
 			(effects
@@ -11117,6 +11150,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Library/3D Models/B4B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 1.9 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -11532,6 +11576,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Library/3D Models/B2B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 1.7 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -12600,6 +12655,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/Library/3D Models/B6B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 1.7 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
 		(layer "F.Cu")
@@ -12904,7 +12970,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "582969b5-18f4-4039-844f-58051f8e43fd")
 			(effects
@@ -12915,7 +12981,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e1b1ed1c-d4af-4de0-a714-f103d1530afe")
 			(effects
@@ -13083,7 +13149,7 @@
 			(uuid "e2aa8015-3e99-46fa-b566-60dc3bd17635")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8d2ba73e-7d1c-4107-9065-fa32b2bd3343")
 			(effects
@@ -13368,7 +13434,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 4.05 4.35 360)
+			(at 4.05 4.35 0)
 			(layer "F.Fab")
 			(uuid "0db8c027-470c-441b-a12e-b346ac166466")
 			(effects
@@ -13658,7 +13724,7 @@
 			(uuid "daffb1a0-fe5f-4028-a99f-5e25123ca191")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.85 -1.75 360)
+			(at 1.85 -1.75 0)
 			(layer "F.Fab")
 			(uuid "34b16862-fbdd-44f0-9627-a5aee141b917")
 			(effects
@@ -13738,7 +13804,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "201a40fd-6758-4628-932d-852246118445")
 			(effects
@@ -13749,7 +13815,7 @@
 			)
 		)
 		(property "Value" "174"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "22b8bfc5-a8b9-4f58-b75a-f4f506be9994")
 			(effects
@@ -13917,7 +13983,7 @@
 			(uuid "00d83e6f-e676-4a4d-a7d6-daad50d32144")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "beeb45c9-41b5-481e-bcc3-bdccc6b72919")
 			(effects
@@ -16074,7 +16140,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "6014df95-22a4-4527-8fdb-f1f3580ad24f")
 			(effects
@@ -16085,7 +16151,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "4f9cb28f-10f1-403b-a3e9-0392a1a1b147")
 			(effects
@@ -16253,7 +16319,7 @@
 			(uuid "78fd44e9-b009-4393-934c-67c544bbd2fe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "47af4344-fa54-4997-be2e-0f405668a0fe")
 			(effects
