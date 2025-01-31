@@ -48,6 +48,7 @@ JoystickPCB-backups
 *.drl
 GerberFiles
 GerberFiles.zip
+*.zip
 
 # Exported BOM files
 *.xml
