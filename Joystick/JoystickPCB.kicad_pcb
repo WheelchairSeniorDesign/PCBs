@@ -862,7 +862,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM21BR61C106KE15K"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1153,7 +1153,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM21BR61C106KE15K"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2030,17 +2030,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 		(layer "F.Cu")
 		(uuid "48599906-5371-4ec1-8ba8-e0e044ce4559")
 		(at 184.325 85)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
 		(property "Reference" "H4"
-			(at 0 -3.8 0)
+			(at 0 -3.85 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2d1ad38a-4b7e-4f2e-82a0-65acb8bd1090")
+			(uuid "908b9227-6067-4d68-bd08-24058540dc33")
 			(effects
 				(font
 					(size 1 1)
@@ -2049,9 +2049,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.8 0)
+			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "72d5f3cb-e811-44ff-b2f0-07eabf4f1396")
+			(uuid "e0376d05-94ca-4c2c-855d-ced9ebf38aee")
 			(effects
 				(font
 					(size 1 1)
@@ -2059,12 +2059,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e661507-2c84-4f6a-9015-ec5367797e5b")
+			(uuid "7b9f778a-adac-4964-9e60-0142ad9742f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2077,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64f73a03-0294-40d5-9350-ea095cdffee0")
+			(uuid "83115cd0-306f-4101-b9d3-c74f1e2a7f6a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2090,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4435c60-f14b-4d09-adeb-1b5175d73302")
+			(uuid "11220728-468a-42d1-9f7e-f4e5bde9c866")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2103,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7fe79c8c-5b5e-4e9a-a876-701a082b10ea")
+			(uuid "918fae16-e992-4b07-9782-694ab17340cd")
 			(effects
 				(font
 					(size 1 1)
@@ -2116,7 +2116,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13954fdc-95e5-43f1-b69d-68df695efec4")
+			(uuid "05dad9ce-71b9-4df1-aff4-df18a9f39a27")
 			(effects
 				(font
 					(size 1 1)
@@ -2129,7 +2129,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70c40c19-8f98-4c4b-98fe-ce48a9041f41")
+			(uuid "1320fe9d-1b67-4ec5-8827-c1f76005ebed")
 			(effects
 				(font
 					(size 1 1)
@@ -2142,7 +2142,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d2d9725-f2a7-45da-9fce-526c4397a353")
+			(uuid "18fd37ca-4341-4161-97a2-e8069246121c")
 			(effects
 				(font
 					(size 1 1)
@@ -2155,7 +2155,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f338108a-db01-4755-a5ce-8bcf14980fb5")
+			(uuid "5ac4f7c7-ae23-4395-869a-b7b60acc667e")
 			(effects
 				(font
 					(size 1 1)
@@ -2168,7 +2168,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d15aae7-d90e-4c6d-9282-07372744066d")
+			(uuid "27d73e09-985d-423d-bf14-8f99b16b2b49")
 			(effects
 				(font
 					(size 1 1)
@@ -2183,30 +2183,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.8 0)
+			(end 2.85 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "55a114c3-bb64-4da3-9c0b-bd1b90336bde")
+			(uuid "2999f9d4-b868-4cc9-9489-3350f21c1467")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.05 0)
+			(end 3.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "13229600-edf1-426d-acf4-e67d0fc1546c")
+			(uuid "8728adcd-f6db-47ec-8892-9fe56482882d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "bd4da3ab-00db-44aa-a79f-4d977969a761")
+			(uuid "1ac7ebf7-2766-4e0a-8958-3f5a1551f3ea")
 			(effects
 				(font
 					(size 1 1)
@@ -2216,23 +2216,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 3.6 3.6)
+			(size 5.7 5.7)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "4359880f-96a3-4c66-9171-f8d16dbef0f0")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "F.Cu" "F.Mask")
-			(uuid "909e04a4-b2a6-4506-ae74-ffadd43599c2")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "B.Cu" "B.Mask")
-			(uuid "7106a68d-999c-45d0-ba89-3b1f9f968de4")
+			(uuid "fc3489c8-e782-4280-ba9f-b39632e505be")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
@@ -2526,17 +2514,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 		(layer "F.Cu")
 		(uuid "814afbfa-1cba-4c07-bfc1-850dedc13f3f")
 		(at 184.325 51)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
 		(property "Reference" "H2"
-			(at 0 -3.8 0)
+			(at 0 -3.85 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2680f794-43c1-472b-a94d-55ac5a688f5f")
+			(uuid "a337aeef-928c-4343-8a73-b60c8eb0d296")
 			(effects
 				(font
 					(size 1 1)
@@ -2545,9 +2533,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.8 0)
+			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "236f2eb1-a94d-4310-8b87-a10336687abf")
+			(uuid "6839060e-42e4-4a9d-aa63-35de12c57a96")
 			(effects
 				(font
 					(size 1 1)
@@ -2555,12 +2543,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc68b8e9-8729-46c6-be45-be16a2940959")
+			(uuid "d534322f-23d1-4c65-845e-049749085891")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2561,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60674dd5-4d09-4fe8-9b4b-882ea3ff9529")
+			(uuid "6ecd6bfa-7a52-480c-8f98-38328fbae4f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2574,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ffc9ef1-8aa3-493d-b078-ff3a8b51ab2a")
+			(uuid "a23ca35e-7aaa-4a5e-8afe-b05d74924965")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2587,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "deac2bbc-dbf6-4ad8-9784-9ff5fd120876")
+			(uuid "85a2e093-ff0c-481f-aeb0-1c19241b94d4")
 			(effects
 				(font
 					(size 1 1)
@@ -2612,7 +2600,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e8e97fd-ef45-4857-9744-18d54e30a2c9")
+			(uuid "f723044c-dfb7-41f2-a9b3-ddc7e27267b7")
 			(effects
 				(font
 					(size 1 1)
@@ -2625,7 +2613,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c326ba4-1715-4d85-a86f-6f98da6a993c")
+			(uuid "e95172e2-e3c9-4527-8be4-82af03c58805")
 			(effects
 				(font
 					(size 1 1)
@@ -2638,7 +2626,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d00a737-87c5-448c-b4f5-5e380014eb9c")
+			(uuid "0614a0f3-a3c4-4810-995a-e8bfbde08de3")
 			(effects
 				(font
 					(size 1 1)
@@ -2651,7 +2639,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f47479c-bb25-42ee-a60d-f1a575e56b47")
+			(uuid "ffed22fd-dd16-412e-87c5-5894803becf3")
 			(effects
 				(font
 					(size 1 1)
@@ -2664,7 +2652,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b13bd58c-0d40-4f44-a3bb-b3318dfa57d2")
+			(uuid "7a796cc9-4803-4ea5-af8a-bda88e4012e1")
 			(effects
 				(font
 					(size 1 1)
@@ -2679,30 +2667,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.8 0)
+			(end 2.85 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "a20cf568-bf61-47ed-93a9-bc67f8515a8d")
+			(uuid "d9c79474-30ec-464a-9dd0-e14e1aaf840c")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.05 0)
+			(end 3.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "3bfc796d-da45-4849-83a8-9631134104df")
+			(uuid "3c650b51-a357-4c88-a9be-552aac58a8d2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "b0e2cf4c-d8a5-4912-9d4b-ce6b85167b2b")
+			(uuid "144d95b3-81b1-4326-9e3a-18ab643b163e")
 			(effects
 				(font
 					(size 1 1)
@@ -2712,36 +2700,24 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 3.6 3.6)
+			(size 5.7 5.7)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "0da3de48-3654-49a6-b522-7574cc600478")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "F.Cu" "F.Mask")
-			(uuid "59766357-b634-4852-974c-1a3e585117d5")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "B.Cu" "B.Mask")
-			(uuid "d6d3abdc-f1cb-41d4-96a7-6e15b457097e")
+			(uuid "34c28a74-03ee-46b2-87e2-4897af3c4172")
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 		(layer "F.Cu")
 		(uuid "874628ac-8679-49d2-bfa4-2c2fcb79d3b1")
 		(at 130 85)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
 		(property "Reference" "H3"
-			(at 0 -3.8 0)
+			(at 0 -3.85 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "15fe8de2-a553-4129-b8f1-23afe85021f6")
+			(uuid "f0364f96-1bd6-475b-b49d-2369e3fbd7b0")
 			(effects
 				(font
 					(size 1 1)
@@ -2750,9 +2726,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.8 0)
+			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "28e80504-cca0-40d8-b2d0-8d8970e3959e")
+			(uuid "4ed63e34-9039-40cf-a16e-f7b680086981")
 			(effects
 				(font
 					(size 1 1)
@@ -2760,12 +2736,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07e03b53-eecb-43f6-9494-1634f8b40e97")
+			(uuid "ba4ac8c0-4d57-48ca-8c7c-b0370feab9c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2754,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa50170e-24a3-475b-a43b-b866ed996738")
+			(uuid "0beb0655-b1eb-43b7-8669-3c3145155763")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +2767,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c2dc96d-823b-46f4-89aa-fb2f2a6c7d5d")
+			(uuid "21761c37-b18a-433f-8a67-42545784dd54")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2780,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27e7e51b-872e-4e48-a6ea-5eb631462f36")
+			(uuid "88e50a01-677f-4d0d-a0a3-61be3ef39621")
 			(effects
 				(font
 					(size 1 1)
@@ -2817,7 +2793,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e964261-13ab-441b-a36d-d9b252bc419d")
+			(uuid "21b5f9b3-4737-41e2-ac7c-dcf01596a5e7")
 			(effects
 				(font
 					(size 1 1)
@@ -2830,7 +2806,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d413b434-d409-4972-9676-2bc10641dff8")
+			(uuid "380a3400-0ac2-4766-bfae-8c2404ed00bc")
 			(effects
 				(font
 					(size 1 1)
@@ -2843,7 +2819,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fb7866e-c919-4aea-90d2-3b7096e56d37")
+			(uuid "4d166ebe-c890-43e8-9b08-c8ec58b5d41d")
 			(effects
 				(font
 					(size 1 1)
@@ -2856,7 +2832,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0550e06a-7524-4dc1-b94b-7314174c00c0")
+			(uuid "57f6d151-a64e-4c6c-af75-4fa8ae769522")
 			(effects
 				(font
 					(size 1 1)
@@ -2869,7 +2845,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "829342f0-b09f-481c-b809-3f0fe4854f9c")
+			(uuid "1855dc2c-658c-4fa4-a7f8-fdf1758a3c3b")
 			(effects
 				(font
 					(size 1 1)
@@ -2884,30 +2860,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.8 0)
+			(end 2.85 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "7bfb61ce-fad1-4540-96ab-40d42b21c7c0")
+			(uuid "ba2a7220-a598-4b2b-a4af-d2e47ef70ac7")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.05 0)
+			(end 3.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "888df0e0-f40f-4b55-8eed-33e0187213cc")
+			(uuid "bf293ed6-884c-481b-a028-5217f72ac705")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "499b065a-a654-4516-a89d-e1306495f677")
+			(uuid "16a3d772-cf48-4f98-8695-56555d48194e")
 			(effects
 				(font
 					(size 1 1)
@@ -2917,23 +2893,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 3.6 3.6)
+			(size 5.7 5.7)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "6edf41ab-a85e-4074-a604-1a9be2a76ae5")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "F.Cu" "F.Mask")
-			(uuid "b5970524-a9db-4929-9ad2-04cffbe08ba7")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "B.Cu" "B.Mask")
-			(uuid "ecde8c96-781a-4dd2-94fd-a8465153314b")
+			(uuid "ab95a8ce-fe0b-4af4-9ec5-240e086df742")
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6"
@@ -5574,17 +5538,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 		(layer "F.Cu")
 		(uuid "d71a3b72-764c-420e-805e-b512ea841a4b")
 		(at 130 51)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
 		(property "Reference" "H1"
-			(at 0 -3.8 0)
+			(at 0 -3.85 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "32831983-9511-4846-8be3-e914d19e53ac")
+			(uuid "386449ee-d96a-4cf0-a032-7a5e607dffd6")
 			(effects
 				(font
 					(size 1 1)
@@ -5593,9 +5557,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.8 0)
+			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "4b6eb897-e8b2-4700-bbbc-82757f986594")
+			(uuid "b3b40bc9-c4f7-4175-a31a-29e8a6a5ebb9")
 			(effects
 				(font
 					(size 1 1)
@@ -5603,12 +5567,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60689800-dd07-4878-a03b-6c9946bf4de1")
+			(uuid "979561ae-2655-45d7-81b4-cf07bc6ccac8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +5585,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "baa368f4-b765-4614-a15f-4083e1ea365f")
+			(uuid "166c7a3f-a859-4427-a61b-fdd241e21868")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +5598,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c803a0e6-a98d-4aca-9315-c2c3e7434e8f")
+			(uuid "0cc457bb-c862-48c9-b637-64663915155a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5611,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f99bee5a-2b10-446f-b805-1ccb10c6a410")
+			(uuid "c9a9650b-048f-4e24-9946-af1492572b0f")
 			(effects
 				(font
 					(size 1 1)
@@ -5660,7 +5624,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5daa1c5c-ba0f-43df-b379-ec7752775762")
+			(uuid "6f6d7598-818b-467b-bf87-6dfb238359e7")
 			(effects
 				(font
 					(size 1 1)
@@ -5673,7 +5637,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "697625f0-9f91-49a6-89fd-c451a63f4d9b")
+			(uuid "8aad658c-12d8-4f12-b071-133ff1231277")
 			(effects
 				(font
 					(size 1 1)
@@ -5686,7 +5650,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52a167da-28f7-4394-b73b-e20536bc7be2")
+			(uuid "4e77e277-f9e9-4032-aea2-970eb97dea6e")
 			(effects
 				(font
 					(size 1 1)
@@ -5699,7 +5663,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65a0d9a7-69b6-4336-b85b-625ed6051ed2")
+			(uuid "77630ae0-bb16-4cca-aa77-aaff6707ee22")
 			(effects
 				(font
 					(size 1 1)
@@ -5712,7 +5676,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9509a687-356a-48fa-aa00-cc8b6b37b500")
+			(uuid "8b05dd09-6952-49c4-8f72-537dbf0bad55")
 			(effects
 				(font
 					(size 1 1)
@@ -5727,30 +5691,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.8 0)
+			(end 2.85 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "1f19c3d0-8a0c-4027-979c-ace81564a066")
+			(uuid "d4ad6544-1dc2-471d-be2d-0edcbe5c70b0")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.05 0)
+			(end 3.1 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "eddcad6f-80c2-4722-a402-9a46d663ad18")
+			(uuid "895725ef-8417-4966-acbd-597acace43d6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "be058ac8-1000-49f7-83b8-91400b4bdd93")
+			(uuid "fd83dbd5-03de-41d9-8920-ef2c8db77950")
 			(effects
 				(font
 					(size 1 1)
@@ -5760,23 +5724,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 3.6 3.6)
+			(size 5.7 5.7)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "7059847c-6710-43f4-a26e-9bc6384be7dc")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "F.Cu" "F.Mask")
-			(uuid "8f1067d7-a6ab-404b-b4be-15c972a987e9")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "B.Cu" "B.Mask")
-			(uuid "e966b9da-8e4a-452b-bd1a-9ea68a423b7f")
+			(uuid "cb343119-b2d0-411b-a863-691adda539ad")
 		)
 	)
 	(footprint "Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical"
@@ -8096,7 +8048,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM21BR61C106KE15K"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
