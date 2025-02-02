@@ -4274,7 +4274,7 @@
 		)
 		(uuid "28031893-4a8b-41f7-9176-2a9839f5aa00")
 	)
-	(text "1/28/25"
+	(text "2/1/25"
 		(exclude_from_sim no)
 		(at 212.598 193.294 0)
 		(effects
@@ -5971,7 +5971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 152.4 177.8 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 152.4 167.64 0)
 			(effects
 				(font
@@ -7485,7 +7485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 132.08 167.64 0)
 			(effects
 				(font
@@ -7959,7 +7959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 132.08 177.8 0)
 			(effects
 				(font
