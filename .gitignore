@@ -11,6 +11,7 @@ Project Logs for WashrProgV1
 Project Outputs for WashrProgV1
 .DS_Store
 *-backups
+Outputs
 
 
 # Format documentation: https://kicad.org/help/file-formats/
@@ -48,6 +49,7 @@ JoystickPCB-backups
 *.drl
 GerberFiles
 GerberFiles.zip
+*.zip
 
 # Exported BOM files
 *.xml
