@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "13d126c3-058e-4769-8500-e0ab3b4ccece")
 	(paper "A4")
+	(title_block
+		(title "Sensor Microcontroller PCB")
+		(date "2025-02-05")
+		(rev "v1.0")
+		(company "Lafayette College")
+		(comment 1 "By Robbie Leslie")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
 			(exclude_from_sim no)
@@ -2906,16 +2913,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 166.37) (xy 127 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "040b1861-6059-4394-babf-dca03a4264dd")
-	)
-	(wire
-		(pts
 			(xy 33.02 86.36) (xy 45.72 86.36)
 		)
 		(stroke
@@ -3016,16 +3013,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 191.77) (xy 127 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12dde5db-ce8b-4ac5-8477-32ea4bded8ac")
-	)
-	(wire
-		(pts
 			(xy 198.12 125.73) (xy 198.12 132.08)
 		)
 		(stroke
@@ -3056,26 +3043,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 176.53) (xy 114.3 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e11c888-eec0-4b6d-82cc-8f49db38eabc")
-	)
-	(wire
-		(pts
-			(xy 81.28 147.32) (xy 87.63 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f1a7752-d9ef-4ba8-945f-e6bc1f727429")
-	)
-	(wire
-		(pts
 			(xy 160.02 68.58) (xy 162.56 68.58)
 		)
 		(stroke
@@ -3083,16 +3050,6 @@
 			(type default)
 		)
 		(uuid "236bf752-cd22-454d-a223-dcccbb9879b3")
-	)
-	(wire
-		(pts
-			(xy 63.5 173.99) (xy 73.66 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "252134f1-3da0-4e41-9850-2aa9a7ef1198")
 	)
 	(wire
 		(pts
@@ -3146,16 +3103,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 173.99) (xy 87.63 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca31d4d-4f87-4d73-ac60-b104a2982942")
-	)
-	(wire
-		(pts
 			(xy 120.65 73.66) (xy 118.11 73.66)
 		)
 		(stroke
@@ -3196,16 +3143,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 152.4) (xy 127 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a631cf-8b1e-4001-b1d8-3641d26c46eb")
-	)
-	(wire
-		(pts
 			(xy 190.5 60.96) (xy 190.5 54.61)
 		)
 		(stroke
@@ -3233,16 +3170,6 @@
 			(type default)
 		)
 		(uuid "35a3a4fd-cc2b-444f-86f1-2b0b3558ba85")
-	)
-	(wire
-		(pts
-			(xy 82.55 179.07) (xy 87.63 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f0bb7f-1b60-4f2a-8cb9-932351df1e0d")
 	)
 	(wire
 		(pts
@@ -3326,16 +3253,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 191.77) (xy 87.63 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e56b6d0-d44e-4c09-839b-dfacba974e75")
-	)
-	(wire
-		(pts
 			(xy 266.7 129.54) (xy 271.78 129.54)
 		)
 		(stroke
@@ -3373,16 +3290,6 @@
 			(type default)
 		)
 		(uuid "47f9f505-b9c3-4787-8918-ac83d076ba57")
-	)
-	(wire
-		(pts
-			(xy 107.95 189.23) (xy 114.3 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad38bf4-a0ae-47ee-a56a-3268122bf490")
 	)
 	(wire
 		(pts
@@ -3446,16 +3353,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 184.15) (xy 127 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61c5f7ac-19c3-4e05-9d89-a7a3f482d4a9")
-	)
-	(wire
-		(pts
 			(xy 81.28 124.46) (xy 87.63 124.46)
 		)
 		(stroke
@@ -3463,16 +3360,6 @@
 			(type default)
 		)
 		(uuid "626d0210-a07a-479a-85fd-b2b466e56125")
-	)
-	(wire
-		(pts
-			(xy 107.95 147.32) (xy 120.65 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "634d7445-ab42-41b3-9f93-6a41d9a1e781")
 	)
 	(wire
 		(pts
@@ -3513,16 +3400,6 @@
 			(type default)
 		)
 		(uuid "68e1673b-afaa-472f-b483-0fbe015a0de4")
-	)
-	(wire
-		(pts
-			(xy 120.65 147.32) (xy 120.65 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae6df85-e004-4cb8-a156-dc0b6f76a002")
 	)
 	(wire
 		(pts
@@ -3636,16 +3513,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 147.32) (xy 73.66 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e230b8-9bfc-49a8-bf99-8124948cebd7")
-	)
-	(wire
-		(pts
 			(xy 161.29 137.16) (xy 179.07 137.16)
 		)
 		(stroke
@@ -3656,16 +3523,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 30.48) (xy 275.59 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88e06fac-4cec-4b03-b051-5b1f31e1b833")
-	)
-	(wire
-		(pts
 			(xy 118.11 68.58) (xy 120.65 68.58)
 		)
 		(stroke
@@ -3673,16 +3530,6 @@
 			(type default)
 		)
 		(uuid "89b8341e-62eb-4176-855e-ee475d664dd4")
-	)
-	(wire
-		(pts
-			(xy 120.65 171.45) (xy 127 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a3b3792-a78b-4938-a287-dece461c445e")
 	)
 	(wire
 		(pts
@@ -3736,16 +3583,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 158.75) (xy 127 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a44e1a-3d57-4611-be79-99ba0582273d")
-	)
-	(wire
-		(pts
 			(xy 271.78 121.92) (xy 271.78 129.54)
 		)
 		(stroke
@@ -3766,26 +3603,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 144.78) (xy 127 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a667b5a-58ac-44bb-9552-66660156eeb2")
-	)
-	(wire
-		(pts
-			(xy 81.28 186.69) (xy 87.63 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c96f841-b482-45dc-9877-f7331998358f")
-	)
-	(wire
-		(pts
 			(xy 44.45 24.13) (xy 52.07 24.13)
 		)
 		(stroke
@@ -3803,16 +3620,6 @@
 			(type default)
 		)
 		(uuid "a0c1c5d6-6277-40d7-8b81-b98c0c379af3")
-	)
-	(wire
-		(pts
-			(xy 63.5 161.29) (xy 73.66 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a19beef7-e1d9-4bd5-9746-754232cf3887")
 	)
 	(wire
 		(pts
@@ -3856,16 +3663,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 186.69) (xy 73.66 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acdbd434-b0bf-4e99-b999-e0e1cdc6681c")
-	)
-	(wire
-		(pts
 			(xy 205.74 78.74) (xy 215.9 78.74)
 		)
 		(stroke
@@ -3893,16 +3690,6 @@
 			(type default)
 		)
 		(uuid "b0e4cd1e-dab8-4b43-8864-9ac0997e71b5")
-	)
-	(wire
-		(pts
-			(xy 107.95 163.83) (xy 114.3 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b25fad61-49db-4b21-a071-50717e98e314")
 	)
 	(wire
 		(pts
@@ -3966,16 +3753,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 161.29) (xy 120.65 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5167510-cb2d-44da-ae33-8b9c662f7626")
-	)
-	(wire
-		(pts
 			(xy 17.78 140.97) (xy 27.94 140.97)
 		)
 		(stroke
@@ -3993,16 +3770,6 @@
 			(type default)
 		)
 		(uuid "c9451981-bfab-4a79-8796-767bb95c7f9c")
-	)
-	(wire
-		(pts
-			(xy 82.55 152.4) (xy 87.63 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c94a0ec9-ab6c-4e8b-83e4-a62d873fbcc6")
 	)
 	(wire
 		(pts
@@ -4026,26 +3793,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 179.07) (xy 127 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5cded8-3478-44da-975d-f36e20f3165b")
-	)
-	(wire
-		(pts
-			(xy 121.92 186.69) (xy 121.92 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd473fa3-e827-46eb-ae99-87ef347bc3c1")
-	)
-	(wire
-		(pts
 			(xy 266.7 66.04) (xy 271.78 66.04)
 		)
 		(stroke
@@ -4066,16 +3813,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 186.69) (xy 121.92 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b89966-a793-49fc-b715-96613270ab11")
-	)
-	(wire
-		(pts
 			(xy 170.18 69.85) (xy 170.18 71.12)
 		)
 		(stroke
@@ -4093,16 +3830,6 @@
 			(type default)
 		)
 		(uuid "d3238ed7-8b25-4cf0-8a0a-6f25cc7dd230")
-	)
-	(wire
-		(pts
-			(xy 107.95 173.99) (xy 120.65 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c35baf-4686-4c78-af56-2aa704e39adb")
 	)
 	(wire
 		(pts
@@ -4216,16 +3943,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 166.37) (xy 87.63 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d10d53-0159-4a00-8de2-b0cd7b869c3a")
-	)
-	(wire
-		(pts
 			(xy 78.74 62.23) (xy 91.44 62.23)
 		)
 		(stroke
@@ -4243,16 +3960,6 @@
 			(type default)
 		)
 		(uuid "e7ff2556-be46-4e22-8e09-4626e383106c")
-	)
-	(wire
-		(pts
-			(xy 81.28 161.29) (xy 87.63 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed3fd9d4-a3da-48c1-8af0-5e423a868c8c")
 	)
 	(wire
 		(pts
@@ -4296,16 +4003,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 173.99) (xy 120.65 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7625ecb-0daf-4531-9934-eafc42df22ee")
-	)
-	(wire
-		(pts
 			(xy 266.7 60.96) (xy 271.78 60.96)
 		)
 		(stroke
@@ -4323,26 +4020,6 @@
 			(type default)
 		)
 		(uuid "f9afdc9c-4a17-4dd3-af84-f0263e567367")
-	)
-	(wire
-		(pts
-			(xy 107.95 149.86) (xy 114.3 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc72356-def3-45c0-97ec-bf0553ddd546")
-	)
-	(wire
-		(pts
-			(xy 120.65 161.29) (xy 120.65 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd5811a6-5acc-46d7-a1f6-86df7ebdd62c")
 	)
 	(wire
 		(pts
@@ -4393,16 +4070,6 @@
 			)
 		)
 		(uuid "28031893-4a8b-41f7-9176-2a9839f5aa00")
-	)
-	(text "2/3/25"
-		(exclude_from_sim no)
-		(at 212.598 193.294 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "2a770dc6-afe8-4931-87b3-091673a61bae")
 	)
 	(text "Light Transistors"
 		(exclude_from_sim no)
@@ -4464,16 +4131,6 @@
 		)
 		(uuid "78d3bdfe-330a-463c-8738-ad8f423b88cb")
 	)
-	(text "1.0"
-		(exclude_from_sim no)
-		(at 271.018 193.294 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "815e03fd-dff0-4894-be36-332a7e693a7a")
-	)
 	(text "Front by Screen"
 		(exclude_from_sim no)
 		(at 27.686 65.786 0)
@@ -4483,26 +4140,6 @@
 			)
 		)
 		(uuid "a401f921-d6f6-4e7e-98de-a45867be237f")
-	)
-	(text "Fan PWM Optoisolators"
-		(exclude_from_sim no)
-		(at 98.298 140.97 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "a6b0706d-3b00-4364-b3ad-556a6e931802")
-	)
-	(text "Sensor Microcontroller"
-		(exclude_from_sim no)
-		(at 201.676 189.738 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "afe1098b-b127-4b50-b367-79531b028f8b")
 	)
 	(text "Fan connectors"
 		(exclude_from_sim no)
@@ -4543,16 +4180,6 @@
 			)
 		)
 		(uuid "d574c8db-4a86-43f9-9195-aeb5f936ee43")
-	)
-	(text "By Robbie Leslie"
-		(exclude_from_sim no)
-		(at 273.304 189.738 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "ea534b21-4356-4ccb-9c03-5ae61cfe77d4")
 	)
 	(text "12V in connector"
 		(exclude_from_sim no)
@@ -4694,16 +4321,6 @@
 		)
 		(uuid "255e945c-9bc9-4cac-925c-5a8876c79565")
 	)
-	(label "GND"
-		(at 114.3 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25a19de8-4e6b-4fe0-895a-80de700343bf")
-	)
 	(label "TXFinger"
 		(at 207.01 50.8 0)
 		(effects
@@ -4724,7 +4341,7 @@
 		)
 		(uuid "25fcb19d-a848-4e7b-83b8-b4c8ec0e59a1")
 	)
-	(label "PWM0 5V"
+	(label "PWM0"
 		(at 120.65 57.15 0)
 		(effects
 			(font
@@ -4794,7 +4411,7 @@
 		)
 		(uuid "2be5ee66-c4c8-402e-9629-d27507ab5cd2")
 	)
-	(label "PWM1 5V"
+	(label "PWM1"
 		(at 162.56 57.15 0)
 		(effects
 			(font
@@ -4804,7 +4421,7 @@
 		)
 		(uuid "2ec38d91-ac26-4740-82be-1b84cb8fc02e")
 	)
-	(label "PWM2 3.3V"
+	(label "PWM2"
 		(at 271.78 66.04 0)
 		(effects
 			(font
@@ -4824,16 +4441,6 @@
 		)
 		(uuid "3123a087-7faf-4c09-8a60-c8c2c36503dd")
 	)
-	(label "PWM0 3.3V"
-		(at 63.5 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35307839-b5e6-4fe7-9fe9-cdbf8ab377bb")
-	)
 	(label "GND"
 		(at 82.55 129.54 0)
 		(effects
@@ -4843,16 +4450,6 @@
 			(justify left bottom)
 		)
 		(uuid "3e264c9f-93da-45e0-986c-4001cfe047bb")
-	)
-	(label "PWM0 5V"
-		(at 114.3 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f8cb70f-de45-47e5-95cf-4c3a484f42e4")
 	)
 	(label "GND"
 		(at 95.25 78.74 0)
@@ -4873,16 +4470,6 @@
 			(justify left bottom)
 		)
 		(uuid "456f5d66-38e8-41dd-84b1-3b707ba72cba")
-	)
-	(label "GND"
-		(at 82.55 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4717e984-5bfe-4eb1-b180-1095eb2e16d8")
 	)
 	(label "Fan Sense1"
 		(at 172.72 54.61 0)
@@ -4944,16 +4531,6 @@
 		)
 		(uuid "4d870efb-7232-48ae-be66-9b4ec192d485")
 	)
-	(label "5V"
-		(at 114.3 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e6c04d1-a96e-4982-aab4-5b7453256170")
-	)
 	(label "US2"
 		(at 17.78 146.05 0)
 		(effects
@@ -4983,16 +4560,6 @@
 			(justify left bottom)
 		)
 		(uuid "50a0a23b-10bd-49ef-915b-42ad6d725510")
-	)
-	(label "GND"
-		(at 82.55 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "513d72dd-2b79-4b48-b605-87925f146413")
 	)
 	(label "US0"
 		(at 44.45 59.69 0)
@@ -5074,36 +4641,6 @@
 		)
 		(uuid "626d3159-fba1-4da2-b9aa-2574d70f5411")
 	)
-	(label "GND"
-		(at 114.3 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6274945c-c5ee-4352-81a5-d6944e786efb")
-	)
-	(label "PWM1 5V"
-		(at 114.3 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62b00ceb-5a07-4c00-9b29-e58d440b4d2e")
-	)
-	(label "PWM1 3.3V"
-		(at 63.5 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "634f5dec-b1b4-480a-aae1-da922b757682")
-	)
 	(label "US3"
 		(at 17.78 148.59 0)
 		(effects
@@ -5114,7 +4651,7 @@
 		)
 		(uuid "640047af-1608-49b8-8117-1c8ab3e07d4b")
 	)
-	(label "PWM0 3.3V"
+	(label "PWM0"
 		(at 271.78 55.88 0)
 		(effects
 			(font
@@ -5123,16 +4660,6 @@
 			(justify left bottom)
 		)
 		(uuid "64ce5f33-4d15-4d71-981c-83bf472bae88")
-	)
-	(label "5V"
-		(at 114.3 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "656bef18-2f5b-4528-aa2d-f5449d0609bc")
 	)
 	(label "GND"
 		(at 38.1 111.76 0)
@@ -5153,16 +4680,6 @@
 			(justify left bottom)
 		)
 		(uuid "68bfcf26-cd33-4edf-a8be-4ed7a91ba08c")
-	)
-	(label "PWM2 5V"
-		(at 114.3 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6aeab417-daad-4db2-9b5a-6c72a7c93cd1")
 	)
 	(label "SDA"
 		(at 199.39 58.42 0)
@@ -5244,7 +4761,7 @@
 		)
 		(uuid "79d34295-b12f-4018-8a4d-4e8442276fc1")
 	)
-	(label "PWM2 5V"
+	(label "PWM2"
 		(at 120.65 73.66 0)
 		(effects
 			(font
@@ -5254,17 +4771,7 @@
 		)
 		(uuid "7a556024-2bf8-4b2c-ba36-f8d09cca9e16")
 	)
-	(label "GND"
-		(at 82.55 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e143b44-b381-45f0-8b05-cc40395cc422")
-	)
-	(label "PWM3 3.3V"
+	(label "PWM3"
 		(at 271.78 71.12 0)
 		(effects
 			(font
@@ -5294,16 +4801,6 @@
 		)
 		(uuid "879a0120-40ed-4018-907c-d724c961a199")
 	)
-	(label "5V"
-		(at 114.3 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "894c41bf-5cc0-417a-a00a-a944e6140d85")
-	)
 	(label "GND"
 		(at 114.3 129.54 0)
 		(effects
@@ -5313,16 +4810,6 @@
 			(justify left bottom)
 		)
 		(uuid "8b16d11f-2637-4e09-abb1-bbb398428a97")
-	)
-	(label "GND"
-		(at 82.55 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e351fa5-95e8-40b6-8129-ba539764fe3d")
 	)
 	(label "Light On 1"
 		(at 114.3 111.76 0)
@@ -5364,16 +4851,6 @@
 		)
 		(uuid "99a68d79-cec9-4eb6-bb94-17d50dcc8fd8")
 	)
-	(label "PWM3 3.3V"
-		(at 63.5 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c26f89f-36bc-467a-891b-00d2b8c2828c")
-	)
 	(label "SCL"
 		(at 52.07 29.21 0)
 		(effects
@@ -5384,7 +4861,7 @@
 		)
 		(uuid "9d83fd63-b834-4f6d-9b02-1546101a461e")
 	)
-	(label "PWM3 5V"
+	(label "PWM3"
 		(at 162.56 73.66 0)
 		(effects
 			(font
@@ -5394,7 +4871,7 @@
 		)
 		(uuid "9f2143ed-b9e6-44a9-b1a3-155b1e48ba1a")
 	)
-	(label "PWM1 3.3V"
+	(label "PWM1"
 		(at 271.78 60.96 0)
 		(effects
 			(font
@@ -5413,16 +4890,6 @@
 			(justify left bottom)
 		)
 		(uuid "a56a55b4-3908-45db-ad0d-3d8fe02b1f83")
-	)
-	(label "5V"
-		(at 114.3 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "abf5e4fd-1b40-4e49-be46-3a7325b47f1a")
 	)
 	(label "3.3V"
 		(at 129.54 62.23 0)
@@ -5554,16 +5021,6 @@
 		)
 		(uuid "c39a4494-c973-4352-80d0-ca89f8f2078d")
 	)
-	(label "GND"
-		(at 114.3 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3ad0ea8-26fa-4ffa-9cc1-e67131872a16")
-	)
 	(label "Light Blue Wire"
 		(at 154.94 132.08 0)
 		(effects
@@ -5604,16 +5061,6 @@
 		)
 		(uuid "d992858b-2d68-41c7-b413-b619dc6ef739")
 	)
-	(label "PWM3 5V"
-		(at 114.3 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e24984a5-0eb8-46cb-910f-74a1d1cb406a")
-	)
 	(label "GND"
 		(at 38.1 160.02 0)
 		(effects
@@ -5623,16 +5070,6 @@
 			(justify left bottom)
 		)
 		(uuid "e312fce7-9e9d-4d02-9d3a-f5cf31def15e")
-	)
-	(label "5V"
-		(at 275.59 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e516ac38-af47-48aa-b941-ed58e0f64936")
 	)
 	(label "3.3V"
 		(at 128.27 45.72 0)
@@ -5724,16 +5161,6 @@
 		)
 		(uuid "f0383409-74e7-4d03-be65-fc0a25f41a26")
 	)
-	(label "PWM2 3.3V"
-		(at 63.5 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1ab987e-f814-4741-aca8-b45495bc26ef")
-	)
 	(label "Light Pin 1"
 		(at 271.78 50.8 0)
 		(effects
@@ -5763,16 +5190,6 @@
 			(justify left bottom)
 		)
 		(uuid "f8ed29a0-3a6b-4a98-a6b2-253635633578")
-	)
-	(label "GND"
-		(at 114.3 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "faa17a6f-aa2c-4399-935e-7cd6833e6f98")
 	)
 	(symbol
 		(lib_id "Analog_ADC:ADS1115IDGS")
@@ -5872,85 +5289,6 @@
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 127 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d1e8408-ce62-48cb-9602-96a7447ac21c")
-		(property "Reference" "C4"
-			(at 130.81 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 130.81 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 127.9652 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0805KRX7R9BB104"
-			(at 127 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aed83b43-0861-4452-9183-5535d52a54e3")
-		)
-		(pin "1"
-			(uuid "ae0375d8-851a-405c-a0d7-b3ba6c792507")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6447,83 +5785,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 77.47 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "363ee3a1-af44-4fdc-a2d5-959e553f97f0")
-		(property "Reference" "R5"
-			(at 77.47 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "174"
-			(at 77.47 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 175.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0805FR-07174RL"
-			(at 77.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "209dd9ab-f034-49c8-8311-a7c2e8149df0")
-		)
-		(pin "1"
-			(uuid "0d8b1b35-4889-4475-9828-c398c3fc40af")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 77.47 81.28 0)
 		(mirror y)
@@ -6704,83 +5965,6 @@
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 77.47 186.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40517b07-de6d-4c9b-b11f-079d120e3ca6")
-		(property "Reference" "R6"
-			(at 77.47 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "174"
-			(at 77.47 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 188.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0805FR-07174RL"
-			(at 77.47 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "144b1174-e7db-4c5f-a65c-f2d7878f9178")
-		)
-		(pin "1"
-			(uuid "285e56cc-ff10-4558-a9c1-5617ec030d60")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7046,7 +6230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "541a0474-8346-4825-a316-313d89a95d31")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 172.72 64.7699 0)
 			(effects
 				(font
@@ -7109,7 +6293,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7187,173 +6371,6 @@
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 127 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c9b92da-d5fd-4a2e-af7f-896fc9836c0e")
-		(property "Reference" "C5"
-			(at 130.81 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 130.81 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 127.9652 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0805KRX7R9BB104"
-			(at 127 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "79a0c290-7df1-4ae9-a017-d98f14174dfd")
-		)
-		(pin "1"
-			(uuid "bb1c330c-84ba-4e66-ab99-9ca7b6153ac7")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OptoIsolators:TLP2355(TPL,E")
-		(at 97.79 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f19f316-e68f-4b5a-ae45-680dddfd1b70")
-		(property "Reference" "U4"
-			(at 97.79 145.034 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Optoisolators"
-			(at 97.79 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
-			(at 98.552 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TLP2355(TPL,E"
-			(at 97.79 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "034b1711-5290-43b8-a1b9-852ce959074d")
-		)
-		(pin "4"
-			(uuid "7526ec72-f64f-466f-a851-c9aac8e37bf6")
-		)
-		(pin "6"
-			(uuid "8ff1d332-3f71-45c4-93f4-caeccd2d4d84")
-		)
-		(pin "5"
-			(uuid "26935ad2-ef83-4d55-930c-a74a2d8c450b")
-		)
-		(pin "3"
-			(uuid "ef503dcc-6529-46a1-b23f-de6f41b681f9")
-		)
-		(instances
-			(project ""
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7544,7 +6561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706ed1f1-65a5-43d5-972f-13a3eee8b8f6")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 241.3 20.32 0)
 			(effects
 				(font
@@ -7560,7 +6577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:pico"
+		(property "Footprint" "CustomFootprints:pico"
 			(at 241.3 68.58 0)
 			(effects
 				(font
@@ -7799,174 +6816,7 @@
 		(instances
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 127 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78a87ba9-24e8-484f-9ff7-1059272ab895")
-		(property "Reference" "C6"
-			(at 130.81 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 130.81 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 127.9652 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0805KRX7R9BB104"
-			(at 127 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc85d848-60b2-472b-a1dd-1e338fb28041")
-		)
-		(pin "1"
-			(uuid "5cebeff3-5adf-48c1-86f3-84434d8afa47")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OptoIsolators:TLP2355(TPL,E")
-		(at 97.79 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e2fdd97-a0a1-4922-88e4-a0515da257eb")
-		(property "Reference" "U7"
-			(at 97.79 184.404 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Optoisolators"
-			(at 97.79 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
-			(at 98.552 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TLP2355(TPL,E"
-			(at 97.79 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4098870b-02e9-4e94-bfdf-49ebffc9ce2c")
-		)
-		(pin "4"
-			(uuid "0bf34fa6-368a-4b3b-afa0-e65b63b33203")
-		)
-		(pin "6"
-			(uuid "7a0c1022-a7e4-4667-96cb-f4d5d21eee0d")
-		)
-		(pin "5"
-			(uuid "0fe35245-26a6-4372-9dc9-c2eed32bc32c")
-		)
-		(pin "3"
-			(uuid "2d1d805c-b401-4e7d-aee9-8060adf0e048")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "U7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8037,94 +6887,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OptoIsolators:TLP2355(TPL,E")
-		(at 97.79 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b19e545-5963-4a58-9861-2c70a8ab5f1f")
-		(property "Reference" "U6"
-			(at 97.79 171.704 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Optoisolators"
-			(at 97.79 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
-			(at 98.552 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TLP2355(TPL,E"
-			(at 97.79 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29f07465-1193-4d00-b1f8-03f9b40d598a")
-		)
-		(pin "4"
-			(uuid "203d75f1-6143-40a3-9f41-c20cd1fa088e")
-		)
-		(pin "6"
-			(uuid "a0ec340c-4ee0-41cd-be96-090e653af4ee")
-		)
-		(pin "5"
-			(uuid "f53dfeaa-36f5-4909-a9f5-4b1872f7ad4d")
-		)
-		(pin "3"
-			(uuid "779925ca-9545-4e80-b571-1b8fd596898c")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 190.5 50.8 0)
 		(unit 1)
@@ -8133,7 +6895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9154618c-b543-48fe-b7be-829afc2293cb")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 193.04 49.5299 0)
 			(effects
 				(font
@@ -8196,7 +6958,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8377,7 +7139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3e33a4f-84ff-437a-a1e6-f55d27eb228e")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 132.08 64.7699 0)
 			(effects
 				(font
@@ -8440,7 +7202,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8511,85 +7273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 127 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aab9d021-2f4b-4396-85fd-0eda37287aa5")
-		(property "Reference" "C7"
-			(at 130.81 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 130.81 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 127.9652 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0805KRX7R9BB104"
-			(at 127 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ffa747d-141c-4f71-af18-4afbf284f5ef")
-		)
-		(pin "1"
-			(uuid "b47a381c-81f0-4861-a7ab-98f212510ceb")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 199.39 50.8 0)
 		(unit 1)
@@ -8599,7 +7282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b08ea038-91d7-442e-9155-5cf3f82e3565")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 201.93 49.5299 0)
 			(effects
 				(font
@@ -8662,7 +7345,7 @@
 		(instances
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8843,7 +7526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b61c9b-b679-44e1-8e50-f93825205d68")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 130.81 48.2599 0)
 			(effects
 				(font
@@ -8905,171 +7588,6 @@
 		)
 		(instances
 			(project ""
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OptoIsolators:TLP2355(TPL,E")
-		(at 97.79 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d239d4df-f176-43b6-a538-6d2520742e9d")
-		(property "Reference" "U5"
-			(at 97.79 159.004 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Optoisolators"
-			(at 97.79 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
-			(at 98.552 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TLP2355(TPL,E"
-			(at 97.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c7238c5-359a-4b7c-9463-6fc647b11404")
-		)
-		(pin "4"
-			(uuid "5132aca7-0c3f-452e-9256-be53450790b1")
-		)
-		(pin "6"
-			(uuid "2181da5c-50e9-47c0-85d8-3f8a3a97dbeb")
-		)
-		(pin "5"
-			(uuid "520de60e-4c72-4dde-95f6-066226e35670")
-		)
-		(pin "3"
-			(uuid "81438e51-ce22-4230-b3be-97f1a2bc5b54")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 77.47 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dca3414c-758c-46a2-8373-b845d8e49511")
-		(property "Reference" "R3"
-			(at 77.47 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "174"
-			(at 77.47 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0805FR-07174RL"
-			(at 77.47 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fdfdfdcc-24eb-451a-be55-5114eef108ee")
-		)
-		(pin "1"
-			(uuid "0b4a3dae-c409-4348-bcf3-5fa00118206f")
-		)
-		(instances
-			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "R3")
 					(unit 1)
@@ -9368,7 +7886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f61611-67aa-4992-887b-4487547ddcc2")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 171.45 48.2599 0)
 			(effects
 				(font
@@ -9431,7 +7949,7 @@
 		(instances
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9526,83 +8044,6 @@
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 77.47 161.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb1ce967-88ec-4dbd-88de-a2fe8aa41e71")
-		(property "Reference" "R4"
-			(at 77.47 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "174"
-			(at 77.47 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0805FR-07174RL"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3337ebb2-f652-4d1b-8296-ffe5a904baa5")
-		)
-		(pin "1"
-			(uuid "24f89c1f-85a4-4aeb-9bc3-a0c01f4e5da2")
-		)
-		(instances
-			(project "SensorMicrocontroller"
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "R4")
 					(unit 1)
 				)
 			)
