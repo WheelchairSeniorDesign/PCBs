@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Sensor Microcontroller PCB")
-		(date "2025-02-05")
+		(date "2025-02-07")
 		(rev "v1.0")
 		(company "Lafayette College")
 		(comment 1 "By Robbie Leslie")
@@ -2852,6 +2852,12 @@
 		(uuid "26191df3-0157-4993-a20d-3186b1e08e12")
 	)
 	(junction
+		(at 198.12 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32a8f7ec-816f-431a-9eaf-626af62ca443")
+	)
+	(junction
 		(at 271.78 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3143,6 +3149,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 113.03) (xy 191.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ca68b8-af77-48d5-a2bc-cf7c75be5330")
+	)
+	(wire
+		(pts
 			(xy 190.5 60.96) (xy 190.5 54.61)
 		)
 		(stroke
@@ -3203,6 +3219,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 113.03) (xy 198.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393ff401-815f-4c55-9178-3404ead69f50")
+	)
+	(wire
+		(pts
 			(xy 107.95 124.46) (xy 123.19 124.46)
 		)
 		(stroke
@@ -3223,7 +3249,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 109.22) (xy 198.12 115.57)
+			(xy 198.12 109.22) (xy 198.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3363,6 +3389,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 107.95) (xy 191.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6358e532-cdff-425e-8714-bd60a4c42948")
+	)
+	(wire
+		(pts
 			(xy 129.54 71.12) (xy 132.08 71.12)
 		)
 		(stroke
@@ -3470,6 +3506,16 @@
 			(type default)
 		)
 		(uuid "7b3993de-7600-4286-9a3e-52915a63c749")
+	)
+	(wire
+		(pts
+			(xy 191.77 96.52) (xy 191.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb6127b-8b92-4849-b1d7-9322cb69d4c6")
 	)
 	(wire
 		(pts
@@ -5061,6 +5107,16 @@
 		)
 		(uuid "d992858b-2d68-41c7-b413-b619dc6ef739")
 	)
+	(label "12V"
+		(at 191.77 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da1e5037-06a6-42a1-9c30-74671d7da7d4")
+	)
 	(label "GND"
 		(at 38.1 160.02 0)
 		(effects
@@ -5779,6 +5835,85 @@
 			(project ""
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38282514-64b5-4ecc-9b06-d93a0c668534")
+		(property "Reference" "R9"
+			(at 194.31 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 194.31 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.992 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RR1220P-103-D"
+			(at 191.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f16cd2d7-d611-4d1c-8627-35c70622ef2e")
+		)
+		(pin "1"
+			(uuid "65add41a-c602-4549-8301-dc5198d94f95")
+		)
+		(instances
+			(project "SensorMicrocontroller"
+				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
+					(reference "R9")
 					(unit 1)
 				)
 			)
