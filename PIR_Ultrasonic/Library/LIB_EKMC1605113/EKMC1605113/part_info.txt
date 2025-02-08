@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EKMC1605113
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=3
+Version=1.3
+Released=2022-04-15 08:01:53
+Downloaded=2025-02-05 18:48:27
+3D=Y
