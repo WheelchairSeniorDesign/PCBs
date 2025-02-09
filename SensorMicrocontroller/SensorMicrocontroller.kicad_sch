@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Sensor Microcontroller PCB")
-		(date "2025-02-07")
+		(date "2025-02-08")
 		(rev "v1.0")
 		(company "Lafayette College")
 		(comment 1 "By Robbie Leslie")
@@ -5275,7 +5275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 38.1 156.21 0)
 			(effects
 				(font
