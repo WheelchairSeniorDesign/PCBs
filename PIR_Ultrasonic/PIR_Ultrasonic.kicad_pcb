@@ -932,6 +932,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/Library/3D Models/S3B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 -4.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
@@ -1445,6 +1456,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Library/3D Models/B4B-PH-SM4-TB.step"
+			(offset
+				(xyz 0 1.8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -3050,6 +3072,213 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(gr_text "I would consider moving the PIR sensor to the other side so that the connectors are on one side and the sensor is on the other.\nI know we can solder it either way, but I would be specific in the design.\nI might also rotate the sensor 90 degrees, unless we are mounting it vertically"
+		(at 171 123.5 0)
+		(layer "Cmts.User")
+		(uuid "0c5998bd-dba3-4f48-85fd-94c357373dc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "This connector needs to be rotated 180.\nI added the 3D model for it to make \nit more obvious"
+		(at 108.75 121.75 0)
+		(layer "Cmts.User")
+		(uuid "0c9557b0-41bf-4bf2-9877-335cde4f1d4b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "I would personally rotate this connector 180 as well,\nbut that is a style choice"
+		(at 194 105.25 0)
+		(layer "Cmts.User")
+		(uuid "11eb01ac-11a9-406e-904c-63a217ed9a76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "It is missing the serial number and assembly number silkscreens on the front,\nand the board number and revision on the back - Robbie"
+		(at 126.25 143.75 0)
+		(layer "Cmts.User")
+		(uuid "690edcf2-8e93-4902-877d-421a0eb841bc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "This mounting whole is ever so slightly mis-aligned"
+		(at 136.25 69.5 0)
+		(layer "Cmts.User")
+		(uuid "a373baf2-01d2-4a72-bfa2-e6c508f9d50c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "The entire thing needs a ground fill, at least on one layer"
+		(at 201 99.5 0)
+		(layer "Cmts.User")
+		(uuid "a6304365-d7ef-488a-9301-37107112f8f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "084fde7d-9959-4291-a0b0-4d0426265c05")
+		(pts
+			(xy 133 131.5) (xy 193 131.5)
+		)
+		(height 24.5)
+		(gr_text "60.0000 mm"
+			(at 163 154.85 0)
+			(layer "Cmts.User")
+			(uuid "084fde7d-9959-4291-a0b0-4d0426265c05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "10f745a0-8f4f-4ddd-81e3-6ce353df01ec")
+		(pts
+			(xy 133 131.5) (xy 133 89.5)
+		)
+		(height -25)
+		(gr_text "42.0000 mm"
+			(at 106.85 110.5 90)
+			(layer "Cmts.User")
+			(uuid "10f745a0-8f4f-4ddd-81e3-6ce353df01ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "6466a728-e86d-4733-899e-6e174126b19c")
+		(pts
+			(xy 133 89.5) (xy 193 90)
+		)
+		(height -15.030501)
+		(gr_text "60.0021 mm"
+			(at 163.140249 72.920083 359.5225462)
+			(layer "Cmts.User")
+			(uuid "6466a728-e86d-4733-899e-6e174126b19c")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "6c56f738-d13c-4ac0-9fd3-f684af2872c9")
+		(pts
+			(xy 193 90) (xy 193 131.5)
+		)
+		(height -14.25)
+		(gr_text "41.5000 mm"
+			(at 206.1 110.75 90)
+			(layer "Cmts.User")
+			(uuid "6c56f738-d13c-4ac0-9fd3-f684af2872c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 162.58 113.58)
