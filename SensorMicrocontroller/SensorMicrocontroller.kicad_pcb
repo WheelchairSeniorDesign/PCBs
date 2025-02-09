@@ -7813,7 +7813,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "9ec22d01-09b2-4412-a3f2-aef840cc1fe7")
 			(effects
@@ -7824,7 +7824,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e798554a-9abd-4126-b60c-741f9d35eb94")
 			(effects
@@ -7992,7 +7992,7 @@
 			(uuid "eedd48d6-9f94-489e-a141-01b5070d788e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "27435ad4-350e-410e-a2fb-0447da083459")
 			(effects
@@ -15386,7 +15386,20 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Serial Number: SB1V10"
+	(gr_text "Sensor Microcontroller\n	   Board"
+		(at 137 133.25 0)
+		(layer "F.SilkS")
+		(uuid "0d728a63-a6ae-4032-8a4d-bb0c2fb71e61")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Serial Number:"
 		(at 108 127 0)
 		(layer "F.SilkS")
 		(uuid "13678f69-d03a-4ec2-a107-02c70950a371")
@@ -15442,19 +15455,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Serial number SB1V10\nstands for {dblquote}Sensor Board Design 1 v1.0{dblquote}"
-		(at 122.25 131.75 0)
-		(layer "Cmts.User")
-		(uuid "c87bb18d-e5f3-4583-ac3e-4e7a2f6e9578")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
