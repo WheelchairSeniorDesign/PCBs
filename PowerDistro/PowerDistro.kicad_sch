@@ -1190,7 +1190,7 @@
 		)
 		(uuid "4c2f9359-b3fa-46e3-9967-aa3bcb12f98c")
 	)
-	(label "12V Reg1"
+	(label "12V Reg2"
 		(at 93.98 90.17 0)
 		(effects
 			(font
@@ -1382,6 +1382,15 @@
 				(hide yes)
 			)
 		)
+		(property "Connects To" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/59b9773a-93d0-463d-9d35-65687b6089a3"
@@ -1462,6 +1471,15 @@
 				(hide yes)
 			)
 		)
+		(property "Connects To" "24V Battery"
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "16f7c0ac-9ac7-43b8-9c24-c8fb7ad06050")
 		)
@@ -1524,6 +1542,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 49.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Connects To" ""
 			(at 49.53 165.1 0)
 			(effects
 				(font
@@ -1663,6 +1690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Connects To" ""
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PowerDistro"
 				(path "/59b9773a-93d0-463d-9d35-65687b6089a3"
@@ -1727,6 +1763,15 @@
 				(hide yes)
 			)
 		)
+		(property "Connects To" ""
+			(at 49.53 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PowerDistro"
 				(path "/59b9773a-93d0-463d-9d35-65687b6089a3"
@@ -1763,7 +1808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Regulator_Boards:LM2596"
 			(at 78.74 69.85 0)
 			(effects
 				(font
@@ -1782,6 +1827,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Connects To" ""
 			(at 78.74 69.85 0)
 			(effects
 				(font
@@ -1905,7 +1959,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Regulator_Boards:LM2596"
 			(at 80.01 130.81 0)
 			(effects
 				(font
@@ -1924,6 +1978,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Connects To" ""
 			(at 80.01 130.81 0)
 			(effects
 				(font
@@ -2158,6 +2221,15 @@
 				)
 			)
 		)
+		(property "Connects To" "Jetson Nano"
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "79850a0f-3ce2-44dc-8de7-a5b366283db3")
 		)
@@ -2242,6 +2314,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Connects To" "Motor Microcontroller"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2531,6 +2612,15 @@
 				(hide yes)
 			)
 		)
+		(property "Connects To" "LiDAR"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "403cbc47-0a15-4fab-be11-d578a0940e8f")
 		)
@@ -2617,6 +2707,15 @@
 				)
 			)
 		)
+		(property "Connects To" "Sensor Microcontroller"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a204b9ba-b54c-4c28-a3ca-43586d62a0cb")
 		)
@@ -2659,7 +2758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Regulator_Boards:LM2596"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -2678,6 +2777,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Connects To" ""
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -2770,6 +2878,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "S2B-XH-A-1"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Connects To" "Screen"
 			(at 240.03 66.04 0)
 			(effects
 				(font
