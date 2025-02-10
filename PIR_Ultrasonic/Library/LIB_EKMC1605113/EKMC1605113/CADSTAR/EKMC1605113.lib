@@ -1,0 +1,16 @@
+.EKMC1605113 :1 ;PIR Sensor Digital 5m 3-Pin Tray Horizontally Wide Detection Type, 170A
+EKMC1605113
+*STM U
+*NGS
+*PLB 1="VDD" 2="OUT" 3="GND"
+*MXP 3
+*DFN EKMC1605113
+~!Mouser Part Number (667-EKMC1605113)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/EKMC1605113?qs=YCa%2FAAYMW038SgkU4g3cHw%3D%3D)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (EKMC1605113)
+~!Link Datasheet (https://www3.panasonic.biz/ac/ae/dl/catalog/index.jsp?series_cd=2481&part_no=EKMC1605113)
+~!Height (16.6mm)
+~!3D_Model (EKMC1605113)
+EKMC1605113
+1.1!U 2.1!U 3.1!U 
