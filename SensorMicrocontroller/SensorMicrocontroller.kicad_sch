@@ -2846,6 +2846,12 @@
 		)
 	)
 	(junction
+		(at 38.1 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "082d607f-7c79-4b5c-8db1-bfeb819f21bf")
+	)
+	(junction
 		(at 170.18 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3119,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 123.19) (xy 38.1 130.81)
+			(xy 38.1 123.19) (xy 38.1 127)
 		)
 		(stroke
 			(width 0)
@@ -3326,6 +3332,16 @@
 			(type default)
 		)
 		(uuid "47f9f505-b9c3-4787-8918-ac83d076ba57")
+	)
+	(wire
+		(pts
+			(xy 38.1 127) (xy 38.1 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ccfd1b-7669-473f-a5c6-fe7860760f10")
 	)
 	(wire
 		(pts
@@ -3866,6 +3882,16 @@
 			(type default)
 		)
 		(uuid "c1406273-9910-45e6-98df-023ca710721e")
+	)
+	(wire
+		(pts
+			(xy 29.21 127) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ce18a0-cd9b-4aa4-a353-1253f12a6791")
 	)
 	(wire
 		(pts
@@ -4926,6 +4952,16 @@
 			(justify left bottom)
 		)
 		(uuid "7a556024-2bf8-4b2c-ba36-f8d09cca9e16")
+	)
+	(label "3.3V"
+		(at 29.21 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d42e091-a6f9-4801-84ec-6235da217b57")
 	)
 	(label "PWM3"
 		(at 271.78 71.12 0)
