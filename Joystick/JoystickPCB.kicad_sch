@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "40b06a56-8aa7-465d-9cc9-72851af3998b")
 	(paper "A4")
+	(title_block
+		(title "Joystick and IMU Board")
+		(date "2025-02-11")
+		(rev "v1.0")
+		(company "Lafayette College")
+		(comment 1 "By Robbie Leslie")
+	)
 	(lib_symbols
 		(symbol "ADS1115IDGSR:ADS1115IDGSR"
 			(pin_names
@@ -2994,26 +3001,6 @@
 		)
 		(uuid "10f8cfd9-b97a-457b-94a4-f6633790214a")
 	)
-	(text "1.2"
-		(exclude_from_sim no)
-		(at 271.018 193.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "32375a89-1c0c-44eb-a471-cc22d7c39e1d")
-	)
-	(text "11/11/2024\n"
-		(exclude_from_sim no)
-		(at 212.598 193.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "430f49f5-f860-45a2-8358-9b0d9dc5c395")
-	)
 	(text "To Fingerprint Sensor"
 		(exclude_from_sim no)
 		(at 96.266 128.778 0)
@@ -3054,16 +3041,6 @@
 		)
 		(uuid "733789e5-b3e8-471a-9c1b-845440524aea")
 	)
-	(text "Joystick PCB"
-		(exclude_from_sim no)
-		(at 193.294 189.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "87a141e0-ecbf-4fb4-b598-eae671ea9a0d")
-	)
 	(text "To Pico"
 		(exclude_from_sim no)
 		(at 42.926 122.428 0)
@@ -3103,16 +3080,6 @@
 			)
 		)
 		(uuid "a714674b-3c37-47e5-bf01-bc8ce384f70a")
-	)
-	(text "By Robbie Leslie"
-		(exclude_from_sim no)
-		(at 274.066 189.992 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e02edcb2-1062-4c13-bcfd-20b70365936e")
 	)
 	(label "1.8V"
 		(at 201.93 50.8 0)
@@ -5112,7 +5079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
 			(at 43.18 133.35 0)
 			(effects
 				(font
@@ -5157,7 +5124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "B6B-PH-SM4-TB"
+		(property "Manufacturer Part Number" "S6B-PH-SM4-TB"
 			(at 43.18 133.35 0)
 			(effects
 				(font
