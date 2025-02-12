@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EKMC1605113"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-04-15-08:01:53)
+    (mountForm default
+        (footprintRef "EKMC1605113")
+        (spec "System")
+    )
+)
