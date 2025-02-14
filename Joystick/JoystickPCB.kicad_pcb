@@ -8202,7 +8202,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Board Part Number: "
+	(gr_text "Board Part Number: 2"
 		(at 187 77 0)
 		(layer "B.SilkS")
 		(uuid "ee29404c-16da-4dc9-a515-f24629060c70")
