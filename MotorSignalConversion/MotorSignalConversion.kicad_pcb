@@ -2956,7 +2956,7 @@
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J2"
-			(at 0 5 360)
+			(at 0 5 0)
 			(layer "F.SilkS")
 			(uuid "d58c2c0e-c93b-4993-9312-512c55ac3cff")
 			(effects
@@ -2967,7 +2967,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 0 4.45 360)
+			(at 0 4.45 0)
 			(layer "F.Fab")
 			(uuid "6f962d3b-dc1f-4709-850a-6d5ed4457d71")
 			(effects
@@ -3295,7 +3295,7 @@
 			(uuid "e7cd2fa1-b8af-4592-b060-8021e6b59442")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1 360)
+			(at 0 -1 0)
 			(layer "F.Fab")
 			(uuid "eb9e6737-7d10-4406-b727-da5290341f0c")
 			(effects
@@ -10762,7 +10762,7 @@
 		(descr "JST PH series connector, B4B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J4"
-			(at 0 4.25 360)
+			(at 0 4.25 0)
 			(layer "F.SilkS")
 			(uuid "40e1f283-d13f-4e7a-bbbc-b7e5d7017494")
 			(effects
@@ -10773,7 +10773,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 0 4.45 360)
+			(at 0 4.45 0)
 			(layer "F.Fab")
 			(uuid "ed23ecb7-e037-408a-81af-37d53a9c60f9")
 			(effects
@@ -11181,7 +11181,7 @@
 			(uuid "b4690ca1-7ec1-4712-a4dc-87537294f298")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1 360)
+			(at 0 -1 0)
 			(layer "F.Fab")
 			(uuid "dca647de-2b98-4044-8192-4de570c0f4da")
 			(effects
@@ -11374,7 +11374,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d7259507-9a35-4aa8-bca3-80abaa12b9c4")
 	)
-	(gr_text "Board Part Number:"
+	(gr_text "Board Part Number: 5"
 		(at 235 116 0)
 		(layer "B.SilkS")
 		(uuid "82d13071-9843-48ab-99a1-38570e6846b5")
