@@ -5367,7 +5367,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e90e3620-9188-4795-8072-2f99c0711c2a")
 	)
-	(gr_text "Board Part Number:"
+	(gr_text "Board Part Number: 4"
 		(at 218 93 0)
 		(layer "B.SilkS")
 		(uuid "4515c64e-5c09-460e-a560-fa15e9d1ad19")
@@ -7004,8 +7004,7 @@
 		)
 		(polygon
 			(pts
-				(xy 185 106) (xy 196 106) (xy 196 117) (xy 196 117) (xy 196 130) (xy 185 130) (xy 155 130) (xy 155 62.5)
-				(xy 185 62.5)
+				(xy 185 106) (xy 196 106) (xy 196 117) (xy 196 130) (xy 185 130) (xy 155 130) (xy 155 62.5) (xy 185 62.5)
 			)
 		)
 		(filled_polygon
