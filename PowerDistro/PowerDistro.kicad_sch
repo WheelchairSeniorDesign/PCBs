@@ -3303,6 +3303,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "S3B-PH-SM4-TB"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5d705a9b-bb9c-4bf0-b602-d4c700c3f7a9")
 		)
