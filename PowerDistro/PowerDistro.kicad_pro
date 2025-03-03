@@ -509,6 +509,10 @@
       {
         "netclass": "12&19V",
         "pattern": "/Reg*"
+      },
+      {
+        "netclass": "12&19V",
+        "pattern": "/LiDAR*"
       }
     ]
   },

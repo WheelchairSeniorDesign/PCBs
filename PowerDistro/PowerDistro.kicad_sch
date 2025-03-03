@@ -1564,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 82.55) (xy 166.37 82.55)
+			(xy 154.94 82.55) (xy 166.37 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2116,8 +2116,8 @@
 		)
 		(uuid "bfd69856-6b2d-4fd3-8ea2-ea3d0744e5e9")
 	)
-	(label "GND"
-		(at 161.29 82.55 0)
+	(label "Reg1 GND"
+		(at 154.94 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
