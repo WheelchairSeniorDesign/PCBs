@@ -3381,6 +3381,16 @@
 		)
 		(uuid "907d0970-af7e-4996-b7e4-15255f12b345")
 	)
+	(label "A2"
+		(at 85.09 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93f31d73-71db-41fc-a941-e1a147391221")
+	)
 	(label "GND"
 		(at 30.48 175.26 0)
 		(effects
@@ -3431,6 +3441,16 @@
 		)
 		(uuid "b4665f1e-a402-403f-9406-6a0bbb4a546e")
 	)
+	(label "3.3V"
+		(at 85.09 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd2aafc4-3c78-4ef8-9658-b487d9326768")
+	)
 	(label "A0"
 		(at 30.48 172.72 0)
 		(effects
@@ -3450,16 +3470,6 @@
 			(justify left bottom)
 		)
 		(uuid "c310a9f7-90ec-409e-a76b-44d2ab20fcd6")
-	)
-	(label "A2"
-		(at 85.09 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2bed7ca-2d6f-4a3d-8e8a-77b8e5a46887")
 	)
 	(label "1.8V"
 		(at 201.93 43.18 0)
@@ -3500,16 +3510,6 @@
 			(justify left bottom)
 		)
 		(uuid "e603c3a7-9d68-4c64-910a-b1a7241099cc")
-	)
-	(label "3.3V"
-		(at 85.09 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7303d8a-8ce5-4232-ab1f-107aa6c7e826")
 	)
 	(label "1.8V"
 		(at 158.75 55.88 0)
