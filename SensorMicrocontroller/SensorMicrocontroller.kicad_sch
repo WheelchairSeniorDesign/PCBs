@@ -273,21 +273,21 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
+			(property "Value" "Conn_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -313,7 +313,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -340,7 +340,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -364,7 +364,18 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -375,7 +386,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -393,7 +404,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -403,6 +414,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3085,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 151.13 86.36)
+			(xy 146.05 91.44) (xy 151.13 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3365,6 +3394,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 66.04) (xy 215.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54db3af0-78e9-48f7-bd0d-dc991e676f14")
+	)
+	(wire
+		(pts
 			(xy 179.07 120.65) (xy 190.5 120.65)
 		)
 		(stroke
@@ -3625,6 +3664,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 93.98) (xy 151.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a56fdb0-fc2b-4a2e-9a4c-7887c7cc54d2")
+	)
+	(wire
+		(pts
 			(xy 82.55 83.82) (xy 95.25 83.82)
 		)
 		(stroke
@@ -3855,7 +3904,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 83.82) (xy 151.13 83.82)
+			(xy 146.05 88.9) (xy 151.13 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4335,7 +4384,7 @@
 	)
 	(text "12V in connector"
 		(exclude_from_sim no)
-		(at 139.446 91.186 0)
+		(at 143.51 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4414,7 +4463,7 @@
 		(uuid "0bbcf4c3-a170-4272-be11-f16ddb36041b")
 	)
 	(label "12V"
-		(at 151.13 86.36 0)
+		(at 151.13 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4754,7 +4803,7 @@
 		(uuid "57ae40c2-8a46-4705-bb9a-9faaea3dc180")
 	)
 	(label "GND"
-		(at 151.13 83.82 0)
+		(at 151.13 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5053,6 +5102,16 @@
 		)
 		(uuid "99a68d79-cec9-4eb6-bb94-17d50dcc8fd8")
 	)
+	(label "LiDAR On Pin"
+		(at 151.13 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ba02f29-f323-446c-9240-ab7d57145ae8")
+	)
 	(label "SCL"
 		(at 52.07 29.21 0)
 		(effects
@@ -5273,6 +5332,16 @@
 		)
 		(uuid "da1e5037-06a6-42a1-9c30-74671d7da7d4")
 	)
+	(label "LiDAR On Pin"
+		(at 198.12 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd690126-750a-4808-ab3c-b723258a84b7")
+	)
 	(label "GND"
 		(at 38.1 160.02 0)
 		(effects
@@ -5402,6 +5471,87 @@
 			(justify left bottom)
 		)
 		(uuid "f8ed29a0-3a6b-4a98-a6b2-253635633578")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 140.97 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03adad5f-636c-4d27-a661-40b757f6cec8")
+		(property "Reference" "J12"
+			(at 140.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V Connector"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B3B-PH-SM4-TB"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "575ec58d-9d59-44c1-9d9b-79cde15aedeb")
+		)
+		(pin "3"
+			(uuid "37cfc997-20bf-4fa2-9a57-4c8d0c088d35")
+		)
+		(pin "1"
+			(uuid "1a38c81a-c1de-4045-9cae-aaa8f07d83e7")
+		)
+		(instances
+			(project ""
+				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Analog_ADC:ADS1115IDGS")
@@ -8290,94 +8440,6 @@
 			(project "SensorMicrocontroller"
 				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 140.97 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e90f8d33-ce47-4d98-824e-92a25b59448a")
-		(property "Reference" "J8"
-			(at 138.43 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V Connector"
-			(at 138.43 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
-			(at 140.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "B2B-PH-SM4-TB"
-			(at 140.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Header Connection" "12V"
-			(at 140.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d190e440-fffc-4053-a170-f88e9274eac6")
-		)
-		(pin "1"
-			(uuid "e8352ae5-5dce-4090-8c4c-eb77febee5dd")
-		)
-		(instances
-			(project ""
-				(path "/13d126c3-058e-4769-8500-e0ab3b4ccece"
-					(reference "J8")
 					(unit 1)
 				)
 			)
