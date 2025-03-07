@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Sensor Microcontroller PCB")
-		(date "2025-02-11")
-		(rev "v1.0")
+		(date "2025-03-07")
+		(rev "v1.1")
 		(company "Lafayette College")
 		(comment 1 "By Robbie Leslie")
 	)
