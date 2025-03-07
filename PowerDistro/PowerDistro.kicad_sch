@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Distribution Board")
-		(date "2025-02-06")
-		(rev "v1.0")
+		(date "2025-03-06")
+		(rev "v1.1")
 		(company "Lafyaette College")
 		(comment 1 "By Robbie Leslie")
 	)
@@ -3180,7 +3180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 182.88 132.08 0)
 			(effects
 				(font
@@ -3823,7 +3823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 265.43 95.25 0)
 			(effects
 				(font
@@ -4002,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 265.43 71.12 0)
 			(effects
 				(font
