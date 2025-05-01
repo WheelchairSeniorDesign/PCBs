@@ -4212,7 +4212,7 @@
 		)
 		(uuid "5dc4d8ee-368a-4b80-bbdc-5a57866ced6b")
 	)
-	(label "0V"
+	(label "GND"
 		(at 266.7 35.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4356,7 +4356,7 @@
 		(uuid "8ec566fe-9479-46dc-98af-2b74578f064a")
 	)
 	(label "I2C SDA"
-		(at 44.45 66.04 0)
+		(at 50.8 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4609,7 +4609,7 @@
 		(uuid "f46bf338-5025-4307-92a5-0d46fdaff39e")
 	)
 	(label "I2C SCL"
-		(at 35.56 68.58 0)
+		(at 38.1 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6373,14 +6373,14 @@
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
 		(at 177.8 34.29 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d6bb439-83fa-4a82-9881-f051fd1350dc")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 177.8 24.13 0)
 			(effects
 				(font
@@ -6477,8 +6477,8 @@
 		(instances
 			(project "MotorSignalConversion"
 				(path "/0366205a-f6c1-4cb9-aac8-32bb3f1e3d88"
-					(reference "U6")
-					(unit 1)
+					(reference "U4")
+					(unit 3)
 				)
 			)
 		)
