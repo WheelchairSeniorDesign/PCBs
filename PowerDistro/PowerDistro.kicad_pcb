@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Distribution Board")
-		(date "2025-03-07")
-		(rev "v1.1")
+		(date "2025-05-14")
+		(rev "v1.1.1")
 		(company "Lafayette College")
 		(comment 1 "By Robbie Leslie")
 	)
@@ -870,12 +870,7 @@
 			(at 0 0 90)
 			(size 2.7 3.3)
 			(drill 1.4)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.092593)
 			(net 1 "+BATT")
@@ -887,12 +882,7 @@
 			(at 0 5.5 90)
 			(size 2.7 3.3)
 			(drill 1.4)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "-BATT")
 			(pinfunction "Pin_2")
@@ -1578,12 +1568,7 @@
 			(at 0 0)
 			(size 1.7 2)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net 10 "/LiDAR GND")
@@ -1595,12 +1580,7 @@
 			(at 2.5 0)
 			(size 1.7 2)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 4 "/12V Reg2")
 			(pinfunction "Pin_2")
@@ -3362,12 +3342,7 @@
 			(at 0 0)
 			(size 5.7 5.7)
 			(drill 3.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "4ddcb384-1ceb-40dd-9dcb-024accd3d13f")
 		)
@@ -3648,12 +3623,7 @@
 			(at 0 0 90)
 			(size 1.905 2)
 			(drill 1.1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 11 "/LiDAR Wire")
 			(pinfunction "G")
@@ -3664,12 +3634,7 @@
 			(at 2.54 0 90)
 			(size 1.905 2)
 			(drill 1.1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 10 "/LiDAR GND")
 			(pinfunction "D")
@@ -3680,12 +3645,7 @@
 			(at 5.08 0 90)
 			(size 1.905 2)
 			(drill 1.1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "/Reg2 GND")
 			(pinfunction "S")
@@ -3827,12 +3787,7 @@
 			(at 0 0)
 			(size 5.7 5.7)
 			(drill 3.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "e0c82db7-fe21-424a-82a6-704a50fe6295")
 		)
@@ -3961,12 +3916,7 @@
 			(at 0 0)
 			(size 5.7 5.7)
 			(drill 3.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "51a7a2ad-3ef6-4340-92f4-774ca484ed94")
 		)
@@ -4094,12 +4044,7 @@
 			(at 0 0)
 			(size 5.7 5.7)
 			(drill 3.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "30b46ba9-f21f-4dba-bb9b-f6801996dbe4")
 		)
@@ -4111,7 +4056,7 @@
 		(descr "JST PH series connector, S3B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J3"
-			(at 0 -5.8 0)
+			(at 6.566 0.154 0)
 			(layer "F.SilkS")
 			(uuid "745470ca-9645-4dd5-bd0d-ae0df18921d8")
 			(effects
@@ -4983,12 +4928,7 @@
 			(at 0 0 270)
 			(size 1.7 2)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net 6 "/Reg1 GND")
@@ -5000,12 +4940,7 @@
 			(at 2.5 0 270)
 			(size 1.7 2)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 5 "/12V Reg1")
 			(pinfunction "Pin_2")
@@ -5680,12 +5615,7 @@
 			(at 0 0 90)
 			(size 1.7 2)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net 8 "/19V")
@@ -5697,12 +5627,7 @@
 			(at 2.5 0 90)
 			(size 1.7 2)
 			(drill 1)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 7 "/19V GND")
 			(pinfunction "Pin_2")
@@ -6303,6 +6228,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Screen"
+		(at 126.5 106 0)
+		(layer "F.SilkS")
+		(uuid "16140109-b3a1-4d02-ab6b-6dccb5f9bf84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "19V"
 		(at 197.104 57.658 0)
 		(layer "F.SilkS")
@@ -6325,6 +6261,28 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Jetson Nano"
+		(at 208.25 116.25 0)
+		(layer "F.SilkS")
+		(uuid "410c1637-90fc-4f5b-a92d-85afb328d8f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Sensor Microcontroller"
+		(at 140.75 118 0)
+		(layer "F.SilkS")
+		(uuid "45a0124a-8ea1-4fd2-b7ef-71036e38144a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "Electrical and Computer Engineering"
@@ -6364,6 +6322,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "LiDAR"
+		(at 188.25 115 0)
+		(layer "F.SilkS")
+		(uuid "afed5613-653c-4365-b5e3-e597bdd00f36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Assembly Number:"
 		(at 167 109 0)
 		(layer "F.SilkS")
@@ -6388,7 +6357,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev v1.1"
+	(gr_text "Rev v1.1.1"
 		(at 136 115 0)
 		(layer "F.SilkS")
 		(uuid "c103ec0e-a33d-47af-ba2f-f5de3f6e29e6")
@@ -7264,7 +7233,7 @@
 	(zone
 		(net 7)
 		(net_name "/19V GND")
-		(layers "F.Cu" "B.Cu")
+		(layers "F&B.Cu")
 		(uuid "6a92d197-ba19-49a6-a31e-7efaed7a17cd")
 		(hatch edge 0.5)
 		(priority 3)
@@ -7480,7 +7449,7 @@
 	(zone
 		(net 2)
 		(net_name "-BATT")
-		(layers "F.Cu" "B.Cu")
+		(layers "F&B.Cu")
 		(uuid "7702436c-6a54-43d9-8e4a-bf3b9cf86643")
 		(hatch edge 0.5)
 		(priority 4)
@@ -7890,7 +7859,7 @@
 	(zone
 		(net 6)
 		(net_name "/Reg1 GND")
-		(layers "F.Cu" "B.Cu")
+		(layers "F&B.Cu")
 		(uuid "90af1f70-8d20-4ed8-897b-9cbd06e26aae")
 		(hatch edge 0.5)
 		(priority 1)
@@ -8193,7 +8162,7 @@
 	(zone
 		(net 3)
 		(net_name "/Reg2 GND")
-		(layers "F.Cu" "B.Cu")
+		(layers "F&B.Cu")
 		(uuid "c7d84be1-a0b1-44f7-bbad-242327af3aea")
 		(hatch edge 0.5)
 		(connect_pads
